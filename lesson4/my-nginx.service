@@ -1,0 +1,15 @@
+[Unit]
+Description=My Test NGINX Service
+After=network.target
+
+[Service]
+ExecStart=/usr/sbin/nginx -g 'daemon off;'
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+PIDFile=/run/nginx.pid
+Restart=on-failure
+#User=www-data
+#Group=www-data
+
+[Install]
+WantedBy=multi-user.target

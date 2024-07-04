@@ -1,0 +1,32 @@
+Script started on 2024-07-03 18:00:07+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="121" LINES="38"]
+[?2004h]0;dev@hostnamelesson4: ~/course/codeby-devops/lesson4[01;32mdev@hostnamelesson4[00m:[01;34m~/course/codeby-devops/lesson4[00m$ java --version 
+[?2004ljava 17.0.11 2024-04-16 LTS
+Java(TM) SE Runtime Environment (build 17.0.11+7-LTS-207)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.11+7-LTS-207, mixed mode, sharing)
+[?2004h]0;dev@hostnamelesson4: ~/course/codeby-devops/lesson4[01;32mdev@hostnamelesson4[00m:[01;34m~/course/codeby-devops/lesson4[00m$ sudo update [K-alternatives --config java
+[?2004l[sudo] password for dev: 
+There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/jdk-17/bin/java                  1700      auto mode
+  1            /usr/lib/jvm/java-11-openjdk-amd64/bin/java   1100      manual mode
+  2            /usr/lib/jvm/jdk-17/bin/java                  1700      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in manual mode
+[?2004h]0;dev@hostnamelesson4: ~/course/codeby-devops/lesson4[01;32mdev@hostnamelesson4[00m:[01;34m~/course/codeby-devops/lesson4[00m$ sudo update-alternatives --config javac
+[?2004lThere are 2 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                          Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/jdk-17/bin/javac                  1700      auto mode
+  1            /usr/lib/jvm/java-11-openjdk-amd64/bin/javac   1111      manual mode
+  2            /usr/lib/jvm/jdk-17/bin/javac                  1700      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+[?2004h]0;dev@hostnamelesson4: ~/course/codeby-devops/lesson4[01;32mdev@hostnamelesson4[00m:[01;34m~/course/codeby-devops/lesson4[00m$ [?2004l
+exit
+
+Script done on 2024-07-03 18:01:35+03:00 [COMMAND_EXIT_CODE="0"]
