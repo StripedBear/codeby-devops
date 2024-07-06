@@ -1,0 +1,306 @@
+Script started on 2024-07-04 07:05:28+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="121" LINES="40"]
+[?2004h]0;dev@hostnamelesson4: ~/course/codeby-devops/lesson4[01;32mdev@hostnamelesson4[00m:[01;34m~/course/codeby-devops/lesson4[00m$ exitsudo systemctl disable nginx[3Pstop[C[C[C[C[C[C[2@atus[C[C[C[C[C[C[5Papt install[C[C[C[C[C[Cnginx[Kcat java-log.txt script java-log.txtll[Kscript java-log.txt[2Pcat java-log.txt nginx[Ksudo apt install nginx[5@systemctl status[C[C[C[C[C[C[2Pop[C[C[C[C[C[C[3@disable[C[C[C[C[C[Cexit[K[Ksudo nan[Kno /etc/systemd/system/my-n[Knginx.service
+[?2004l[sudo] password for dev: 
+[?2004h[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[38;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                               /etc/systemd/system/my-nginx.service                                        [1;120H(B[m[39d(B[0;7m^G(B[m Help[39;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[39;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[40d(B[0;7m^X(B[m Exit[40;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;83H(B[0;7m*[38d(B[m[K[1;120H[2d(B[0;1m[32m[Unit][3d[39m(B[mDescription=My Test NGINX Service[4dAfter=network.target[6d(B[0;1m[32m[Service][7d[39m(B[mExecStart=/usr/sbin/nginx -g 'daemon off;'[8dExecReload=/bin/kill -s HUP $MAINPID[9dExecStop=/bin/kill -s QUIT $MAINPID[10dPIDFile=/run/nginx.pid[11dRestart=on-failure[12d[36m#User=www-data[13d#Group=www-data[15d(B[0;1m[32m[Install][16d[39m(B[mWantedBy=multi-user.target[17d[?12l[?25h[?25l[39;16H[15X[39;31H(B[0;7mM-D(B[m DOS Format       [39;61H(B[0;7mM-A(B[m Append[16X[39;93H(B[0;7mB(B[m Backup File[K[40;2H(B[0;7mC(B[m Cancel[16G[15X[40;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[40;91H(B[0;7m^T(B[m Browse[K[38d(B[0;7mFile Name to Write: /etc/systemd/system/my-nginx.service                                                                 [38;57H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;83H(B[0;7m [120G(B[m[38;52H(B[0;7m[ Wrote 15 lines ](B[m[39;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[39;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[40;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[17d[?25l[38d[J[40d[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;dev@hostnamelesson4: ~/course/codeby-devops/lesson4[01;32mdev@hostnamelesson4[00m:[01;34m~/course/codeby-devops/lesson4[00m$ sudo nano /etc/systemd/system/my-nginx.serviceexit[Ksudo systemctl disable nginx[3Pstop[C[C[C[C[C[C[2@atus[C[C[C[C[C[C[5Papt install[C[C[C[C[C[Cnginx[Kcat java-log.txt nginx[Ksudo apt install nginx[5@systemctl status[C[C[C[C[C[C[1P nginx[1P nginx[1P nginx[1P nginx[1P nginx[1P nginxe nginxn nginxa nginxb nginxl nginxe nginx[5Papt install[C[C[C[C[C[Cnginx[Ksudo apt install nginx[5@systemctl enable[C[C[C[C[C[C[2Pstop[C[C[C[C[C[C[2@enable[C[C[C[C[C[C[2Pstop[C[C[C[C[C[C[3@disable[C[C[C[C[C[Cexit[Ksudo systemctl disable nginx[K[K[K[K[K[K[K[K[K[K[K[K[Kdaemon-reload
+[?2004l[?2004h]0;dev@hostnamelesson4: ~/course/codeby-devops/lesson4[01;32mdev@hostnamelesson4[00m:[01;34m~/course/codeby-devops/lesson4[00m$ sudo systemctl daemon-reloadnano /etc/systemd/system/my-nginx.serviceexit[Ksudo systemctl disable nginx[3Pstop[C[C[C[C[C[C[3@disable[C[C[C[C[C[C[1P nginx[1P nginx[1P nginx[1P nginx[1P nginx[1P nginx[1P nginxe nginxn nginxa nginxb nginxl nginxe nginx
+[?2004lSynchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
+Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /usr/lib/systemd/system/nginx.service.
+[?2004h]0;dev@hostnamelesson4: ~/course/codeby-devops/lesson4[01;32mdev@hostnamelesson4[00m:[01;34m~/course/codeby-devops/lesson4[00m$ sudo systemctl enable nginx[1P nginx[1P nginx[1P nginx[1P nginx[1P nginx[1P nginxs nginxt nginxa nginxr nginxt nginx
+[?2004l[?2004h]0;dev@hostnamelesson4: ~/course/codeby-devops/lesson4[01;32mdev@hostnamelesson4[00m:[01;34m~/course/codeby-devops/lesson4[00m$ sudo systemctl start nginx[C[1P nginx[1P nginxt nginxu nginxs nginx
+[?2004l[?1h=[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server[m
+     Loaded: loaded (]8;;file://hostnamelesson4/usr/lib/systemd/system/nginx.service/usr/lib/systemd/system/nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Thu 2024-07-04 07:08:33 MSK; 9s ago[m
+       Docs: ]8;;man:nginx(8)man:nginx(8)]8;;[m
+    Process: 10964 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)[m
+    Process: 10965 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)[m
+   Main PID: 10967 (nginx)[m
+      Tasks: 5 (limit: 7027)[m
+     Memory: 3.7M (peak: 3.9M)[m
+        CPU: 24ms[m
+     CGroup: /system.slice/nginx.service[m
+             ├─[0;38;5;245m10967 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m[m
+             ├─[0;38;5;245m10968 "nginx: worker process"[0m[m
+             ├─[0;38;5;245m10969 "nginx: worker process"[0m[m
+             ├─[0;38;5;245m10970 "nginx: worker process"[0m[m
+             └─[0;38;5;245m10971 "nginx: worker process"[0m[m
+[m
+Jul 04 07:08:33 hostnamelesson4 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy s[m[7m>[27m
+Jul 04 07:08:33 hostnamelesson4 systemd[1]: Started nginx.service - A high performance web server and a reverse proxy se[m[7m>[27m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[0;1;32m[0me proxy server[m
+]8;;file://hostnamelesson4/usr/lib/systemd/system/nginx.service]8;;[0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+[0;1;32m[0mMSK; 9s ago[m
+[m
+mon on; master_process on; (code=exited, status=0/SUCCESS)[m
+aster_process on; (code=exited, status=0/SUCCESS)[m
+[m
+[m
+[m
+[m
+[m
+[0;38;5;245m-g daemon on; master_process on;"[0m[m
+[m
+[m
+[m
+[m
+[m
+ervice - A high performance web server and a reverse proxy server...[m
+rvice - A high performance web server and a reverse proxy server.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+erver...[m
+rver.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+erver...[m
+rver.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m[0me proxy server[m
+]8;;file://hostnamelesson4/usr/lib/systemd/system/nginx.service]8;;[0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+[0;1;32m[0mMSK; 9s ago[m
+[m
+mon on; master_process on; (code=exited, status=0/SUCCESS)[m
+aster_process on; (code=exited, status=0/SUCCESS)[m
+[m
+[m
+[m
+[m
+[m
+[0;38;5;245m-g daemon on; master_process on;"[0m[m
+[m
+[m
+[m
+[m
+[m
+ervice - A high performance web server and a reverse proxy server...[m
+rvice - A high performance web server and a reverse proxy server.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server[m
+     Loaded: loaded (]8;;file://hostnamelesson4/usr/lib/systemd/system/nginx.service/usr/lib/systemd/system/nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Thu 2024-07-04 07:08:33 MSK; 9s ago[m
+       Docs: ]8;;man:nginx(8)man:nginx(8)]8;;[m
+    Process: 10964 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)[m
+    Process: 10965 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)[m
+   Main PID: 10967 (nginx)[m
+      Tasks: 5 (limit: 7027)[m
+     Memory: 3.7M (peak: 3.9M)[m
+        CPU: 24ms[m
+     CGroup: /system.slice/nginx.service[m
+             ├─[0;38;5;245m10967 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m[m
+             ├─[0;38;5;245m10968 "nginx: worker process"[0m[m
+             ├─[0;38;5;245m10969 "nginx: worker process"[0m[m
+             ├─[0;38;5;245m10970 "nginx: worker process"[0m[m
+             └─[0;38;5;245m10971 "nginx: worker process"[0m[m
+[m
+Jul 04 07:08:33 hostnamelesson4 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy s[m[7m>[27m
+Jul 04 07:08:33 hostnamelesson4 systemd[1]: Started nginx.service - A high performance web server and a reverse proxy se[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server[m
+     Loaded: loaded (]8;;file://hostnamelesson4/usr/lib/systemd/system/nginx.service/usr/lib/systemd/system/nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Thu 2024-07-04 07:08:33 MSK; 9s ago[m
+       Docs: ]8;;man:nginx(8)man:nginx(8)]8;;[m
+    Process: 10964 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)[m
+    Process: 10965 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)[m
+   Main PID: 10967 (nginx)[m
+      Tasks: 5 (limit: 7027)[m
+     Memory: 3.7M (peak: 3.9M)[m
+        CPU: 24ms[m
+     CGroup: /system.slice/nginx.service[m
+             ├─[0;38;5;245m10967 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m[m
+             ├─[0;38;5;245m10968 "nginx: worker process"[0m[m
+             ├─[0;38;5;245m10969 "nginx: worker process"[0m[m
+             ├─[0;38;5;245m10970 "nginx: worker process"[0m[m
+             └─[0;38;5;245m10971 "nginx: worker process"[0m[m
+[m
+Jul 04 07:08:33 hostnamelesson4 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy s[m[7m>[27m
+Jul 04 07:08:33 hostnamelesson4 systemd[1]: Started nginx.service - A high performance web server and a reverse proxy se[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-19/19 (END)[27m[K[K[?1l>[?2004h]0;dev@hostnamelesson4: ~/course/codeby-devops/lesson4[01;32mdev@hostnamelesson4[00m:[01;34m~/course/codeby-devops/lesson4[00m$ [?2004l
+exit
+
+Script done on 2024-07-04 07:08:53+03:00 [COMMAND_EXIT_CODE="0"]
