@@ -1,0 +1,9 @@
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+1    DROP       1    --  0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
