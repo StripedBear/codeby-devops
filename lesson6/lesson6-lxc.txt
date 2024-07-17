@@ -1,0 +1,713 @@
+Script started on 2024-07-12 15:08:59+08:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="84" LINES="28"]
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ [7msudo snap install lxd[27msudo snap install lxd
+[?2004l[sudo] password for dev: 
+Ensure prerequisites for "lxd" are available                                       /Download snap "lxd" (28460) from channel "5.21/stable"                             -Download snap "lxd" (28460) from channel "5.21/stable"                             \Download snap "lxd" (28460) from channel "5.21/stable"                             |Download snap "lxd" (28460) from channel "5.21/stable"                             /Download snap "lxd" (28460) from channel "5.21/stable"                             -Download snap "lxd" (28460) from channel "5.21/stable"                             \Download snap "lxd" (28460) from channel "5.21/stable"                             |Download snap "lxd" (28460) from channel "5.21/stable"                             /Download snap "lxd" (28460) from channel "5.21/stable"                             -Download snap "lxd" (28460) from channel "5.21/stable"                             \Download snap "lxd" (28460) from channel "5.21/stable"                             |Download snap "lxd" (28460) from channel "5.21/stable"                             /Download snap "lxd" (28460) from channel "5.21/stable"                             -[?25l[7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             0%     0B/s ages![7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             0%     0B/s ages![7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             0%     0B/s ages![7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             0%     0B/s ages![7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             0%     0B/s ages![7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             0%     0B/s ages![7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             0%     0B/s ages![7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             0%  270kB/s 6m41s[7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             0%  240kB/s 7m30s[7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             0%  433kB/s 4m09s[7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             1%  592kB/s 3m02s[7m[0mDownload snap "lxd" (28460) from channel "5.21/stable"             1%  904kB/s 1m59s[7mD[0mownload snap "lxd" (28460) from channel "5.21/stable"             2% 1.32MB/s 1m21s[7mDo[0mwnload snap "lxd" (28460) from channel "5.21/stable"             3% 1.83MB/s 57.8s[7mDow[0mnload snap "lxd" (28460) from channel "5.21/stable"             4% 2.55MB/s 40.9s[7mDown[0mload snap "lxd" (28460) from channel "5.21/stable"             5% 3.45MB/s 29.7s[7mDownl[0moad snap "lxd" (28460) from channel "5.21/stable"             7% 3.88MB/s 26.1s[7mDownlo[0mad snap "lxd" (28460) from channel "5.21/stable"             8% 4.37MB/s 22.9s[7mDownloa[0md snap "lxd" (28460) from channel "5.21/stable"             9% 4.82MB/s 20.5s[7mDownload[0m snap "lxd" (28460) from channel "5.21/stable"            10% 5.09MB/s 19.2s[7mDownload[0m snap "lxd" (28460) from channel "5.21/stable"            10% 4.81MB/s 20.3s[7mDownload s[0mnap "lxd" (28460) from channel "5.21/stable"            12% 5.53MB/s 17.2s[7mDownload s[0mnap "lxd" (28460) from channel "5.21/stable"            12% 5.30MB/s 17.9s[7mDownload s[0mnap "lxd" (28460) from channel "5.21/stable"            13% 5.44MB/s 17.3s[7mDownload sn[0map "lxd" (28460) from channel "5.21/stable"            13% 5.32MB/s 17.7s[7mDownload sn[0map "lxd" (28460) from channel "5.21/stable"            14% 5.28MB/s 17.7s[7mDownload sn[0map "lxd" (28460) from channel "5.21/stable"            14% 5.25MB/s 17.7s[7mDownload sna[0mp "lxd" (28460) from channel "5.21/stable"            15% 5.44MB/s 16.9s[7mDownload snap[0m "lxd" (28460) from channel "5.21/stable"            16% 5.48MB/s 16.6s[7mDownload snap[0m "lxd" (28460) from channel "5.21/stable"            17% 5.59MB/s 16.2s[7mDownload snap [0m"lxd" (28460) from channel "5.21/stable"            17% 5.62MB/s 15.9s[7mDownload snap [0m"lxd" (28460) from channel "5.21/stable"            17% 5.45MB/s 16.5s[7mDownload snap "l[0mxd" (28460) from channel "5.21/stable"            20% 6.06MB/s 14.3s[7mDownload snap "l[0mxd" (28460) from channel "5.21/stable"            20% 5.88MB/s 14.8s[7mDownload snap "lx[0md" (28460) from channel "5.21/stable"            21% 6.02MB/s 14.3s[7mDownload snap "lx[0md" (28460) from channel "5.21/stable"            21% 5.85MB/s 14.7s[7mDownload snap "lxd[0m" (28460) from channel "5.21/stable"            22% 5.98MB/s 14.2s[7mDownload snap "lxd[0m" (28460) from channel "5.21/stable"            22% 5.82MB/s 14.6s[7mDownload snap "lxd[0m" (28460) from channel "5.21/stable"            22% 5.78MB/s 14.6s[7mDownload snap "lxd[0m" (28460) from channel "5.21/stable"            22% 5.64MB/s 14.9s[7mDownload snap "lxd" [0m(28460) from channel "5.21/stable"            25% 6.13MB/s 13.3s[7mDownload snap "lxd" ([0m28460) from channel "5.21/stable"            25% 5.98MB/s 13.6s[7mDownload snap "lxd" ([0m28460) from channel "5.21/stable"            25% 5.89MB/s 13.8s[7mDownload snap "lxd" ([0m28460) from channel "5.21/stable"            25% 5.73MB/s 14.1s[7mDownload snap "lxd" (28[0m460) from channel "5.21/stable"            28% 6.12MB/s 12.8s[7mDownload snap "lxd" (28[0m460) from channel "5.21/stable"            28% 6.03MB/s 13.0s[7mDownload snap "lxd" (28[0m460) from channel "5.21/stable"            28% 5.90MB/s 13.3s[7mDownload snap "lxd" (284[0m60) from channel "5.21/stable"            29% 6.00MB/s 12.8s[7mDownload snap "lxd" (284[0m60) from channel "5.21/stable"            29% 5.88MB/s 13.1s[7mDownload snap "lxd" (28460[0m) from channel "5.21/stable"            31% 6.23MB/s 12.0s[7mDownload snap "lxd" (28460[0m) from channel "5.21/stable"            31% 6.11MB/s 12.2s[7mDownload snap "lxd" (28460)[0m from channel "5.21/stable"            32% 6.24MB/s 11.7s[7mDownload snap "lxd" (28460)[0m from channel "5.21/stable"            32% 6.11MB/s 12.0s[7mDownload snap "lxd" (28460) [0mfrom channel "5.21/stable"            34% 6.20MB/s 11.6s[7mDownload snap "lxd" (28460) [0mfrom channel "5.21/stable"            34% 6.09MB/s 11.8s[7mDownload snap "lxd" (28460) fr[0mom channel "5.21/stable"            36% 6.39MB/s 10.9s[7mDownload snap "lxd" (28460) fr[0mom channel "5.21/stable"            36% 6.32MB/s 11.0s[7mDownload snap "lxd" (28460) fr[0mom channel "5.21/stable"            37% 6.36MB/s 10.8s[7mDownload snap "lxd" (28460) fro[0mm channel "5.21/stable"            37% 6.33MB/s 10.7s[7mDownload snap "lxd" (28460) from[0m channel "5.21/stable"            38% 6.40MB/s 10.4s[7mDownload snap "lxd" (28460) from[0m channel "5.21/stable"            39% 6.40MB/s 10.3s[7mDownload snap "lxd" (28460) from[0m channel "5.21/stable"            39% 6.30MB/s 10.5s[7mDownload snap "lxd" (28460) from [0mchannel "5.21/stable"            40% 6.38MB/s 10.1s[7mDownload snap "lxd" (28460) from c[0mhannel "5.21/stable"            42% 6.49MB/s 9.77s[7mDownload snap "lxd" (28460) from ch[0mannel "5.21/stable"            42% 6.45MB/s 9.75s[7mDownload snap "lxd" (28460) from ch[0mannel "5.21/stable"            42% 6.36MB/s 9.89s[7mDownload snap "lxd" (28460) from ch[0mannel "5.21/stable"            43% 6.39MB/s 9.70s[7mDownload snap "lxd" (28460) from ch[0mannel "5.21/stable"            43% 6.30MB/s 9.84s[7mDownload snap "lxd" (28460) from cha[0mnnel "5.21/stable"            44% 6.37MB/s 9.56s[7mDownload snap "lxd" (28460) from cha[0mnnel "5.21/stable"            44% 6.28MB/s 9.69s[7mDownload snap "lxd" (28460) from chan[0mnel "5.21/stable"            45% 6.30MB/s 9.52s[7mDownload snap "lxd" (28460) from chan[0mnel "5.21/stable"            45% 6.23MB/s 9.59s[7mDownload snap "lxd" (28460) from chann[0mel "5.21/stable"            46% 6.26MB/s 9.39s[7mDownload snap "lxd" (28460) from chann[0mel "5.21/stable"            46% 6.16MB/s 9.55s[7mDownload snap "lxd" (28460) from channe[0ml "5.21/stable"            47% 6.28MB/s 9.11s[7mDownload snap "lxd" (28460) from channel[0m "5.21/stable"            48% 6.35MB/s 8.80s[7mDownload snap "lxd" (28460) from channel[0m "5.21/stable"            48% 6.25MB/s 8.94s[7mDownload snap "lxd" (28460) from channel [0m"5.21/stable"            49% 6.23MB/s 8.90s[7mDownload snap "lxd" (28460) from channel [0m"5.21/stable"            49% 6.15MB/s 9.00s[7mDownload snap "lxd" (28460) from channel "5[0m.21/stable"            51% 6.39MB/s 8.24s[7mDownload snap "lxd" (28460) from channel "5[0m.21/stable"            51% 6.31MB/s 8.34s[7mDownload snap "lxd" (28460) from channel "5[0m.21/stable"            52% 6.31MB/s 8.24s[7mDownload snap "lxd" (28460) from channel "5[0m.21/stable"            52% 6.22MB/s 8.35s[7mDownload snap "lxd" (28460) from channel "5.[0m21/stable"            52% 6.20MB/s 8.31s[7mDownload snap "lxd" (28460) from channel "5.[0m21/stable"            53% 6.21MB/s 8.19s[7mDownload snap "lxd" (28460) from channel "5.[0m21/stable"            54% 6.18MB/s 8.15s[7mDownload snap "lxd" (28460) from channel "5.2[0m1/stable"            54% 6.17MB/s 8.05s[7mDownload snap "lxd" (28460) from channel "5.2[0m1/stable"            54% 6.10MB/s 8.14s[7mDownload snap "lxd" (28460) from channel "5.21[0m/stable"            56% 6.20MB/s 7.76s[7mDownload snap "lxd" (28460) from channel "5.21/[0mstable"            57% 6.25MB/s 7.51s[7mDownload snap "lxd" (28460) from channel "5.21/s[0mtable"            58% 6.28MB/s 7.33s[7mDownload snap "lxd" (28460) from channel "5.21/s[0mtable"            58% 6.20MB/s 7.43s[7mDownload snap "lxd" (28460) from channel "5.21/st[0mable"            59% 6.31MB/s 7.01s[7mDownload snap "lxd" (28460) from channel "5.21/sta[0mble"            60% 6.28MB/s 6.96s[7mDownload snap "lxd" (28460) from channel "5.21/sta[0mble"            60% 6.26MB/s 6.91s[7mDownload snap "lxd" (28460) from channel "5.21/sta[0mble"            60% 6.19MB/s 6.99s[7mDownload snap "lxd" (28460) from channel "5.21/stab[0mle"            61% 6.26MB/s 6.70s[7mDownload snap "lxd" (28460) from channel "5.21/stab[0mle"            61% 6.19MB/s 6.77s[7mDownload snap "lxd" (28460) from channel "5.21/stab[0mle"            61% 6.13MB/s 6.83s[7mDownload snap "lxd" (28460) from channel "5.21/stable[0m"            63% 6.26MB/s 6.37s[7mDownload snap "lxd" (28460) from channel "5.21/stable[0m"            64% 6.25MB/s 6.26s[7mDownload snap "lxd" (28460) from channel "5.21/stable[0m"            64% 6.22MB/s 6.22s[7mDownload snap "lxd" (28460) from channel "5.21/stable"[0m            65% 6.25MB/s 6.05s[7mDownload snap "lxd" (28460) from channel "5.21/stable"  [0m          67% 6.36MB/s 5.62s[7mDownload snap "lxd" (28460) from channel "5.21/stable"  [0m          67% 6.30MB/s 5.67s[7mDownload snap "lxd" (28460) from channel "5.21/stable"  [0m          67% 6.27MB/s 5.67s[7mDownload snap "lxd" (28460) from channel "5.21/stable"    [0m        70% 6.44MB/s 5.09s[7mDownload snap "lxd" (28460) from channel "5.21/stable"    [0m        70% 6.39MB/s 5.13s[7mDownload snap "lxd" (28460) from channel "5.21/stable"    [0m        70% 6.35MB/s 5.12s[7mDownload snap "lxd" (28460) from channel "5.21/stable"    [0m        70% 6.31MB/s 5.12s[7mDownload snap "lxd" (28460) from channel "5.21/stable"     [0m       71% 6.29MB/s 5.06s[7mDownload snap "lxd" (28460) from channel "5.21/stable"     [0m       71% 6.28MB/s 5.00s[7mDownload snap "lxd" (28460) from channel "5.21/stable"      [0m      72% 6.28MB/s 4.89s[7mDownload snap "lxd" (28460) from channel "5.21/stable"      [0m      73% 6.29MB/s 4.74s[7mDownload snap "lxd" (28460) from channel "5.21/stable"       [0m     73% 6.29MB/s 4.63s[7mDownload snap "lxd" (28460) from channel "5.21/stable"        [0m    74% 6.31MB/s 4.47s[7mDownload snap "lxd" (28460) from channel "5.21/stable"        [0m    74% 6.26MB/s 4.51s[7mDownload snap "lxd" (28460) from channel "5.21/stable"        [0m    74% 6.24MB/s 4.45s[7mDownload snap "lxd" (28460) from channel "5.21/stable"          [0m  77% 6.37MB/s 4.00s[7mDownload snap "lxd" (28460) from channel "5.21/stable"           [0m 78% 6.40MB/s 3.80s[7mDownload snap "lxd" (28460) from channel "5.21/stable"           [0m 78% 6.35MB/s 3.83s[7mDownload snap "lxd" (28460) from channel "5.21/stable"           [0m 78% 6.35MB/s 3.72s[7mDownload snap "lxd" (28460) from channel "5.21/stable"           [0m 78% 6.30MB/s 3.75s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            8[0m0% 6.43MB/s 3.32s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            8[0m0% 6.38MB/s 3.35s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            81[0m% 6.40MB/s 3.20s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            81[0m% 6.35MB/s 3.22s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            82%[0m 6.40MB/s 2.98s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            82%[0m 6.34MB/s 3.01s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            82%[0m 6.28MB/s 3.03s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            82%[0m 6.23MB/s 3.06s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            84% [0m6.27MB/s 2.82s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            84% [0m6.27MB/s 2.71s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            87% 6.[0m39MB/s 2.27s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            87% 6.4[0m0MB/s 2.12s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            89% 6.45[0mMB/s 1.89s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            90% 6.47M[0mB/s 1.71s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            92% 6.56MB/[0ms 1.37s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            93% 6.61MB/s[0m 1.16s[7mDownload snap "lxd" (28460) from channel "5.21/stable"            94% 6.64MB/s[0m 980ms[7mDownload snap "lxd" (28460) from channel "5.21/stable"            94% 6.59MB/s[0m 986ms[7mDownload snap "lxd" (28460) from channel "5.21/stable"            94% 6.56MB/s [0m956ms[7mDownload snap "lxd" (28460) from channel "5.21/stable"            97% 6.70MB/s 52[0m8ms[7mDownload snap "lxd" (28460) from channel "5.21/stable"            97% 6.66MB/s 49[0m6ms[7mDownload snap "lxd" (28460) from channel "5.21/stable"            98% 6.66MB/s 39[0m3ms[7mDownload snap "lxd" (28460) from channel "5.21/stable"            99% 6.73MB/s 118m[0ms[7mDownload snap "lxd" (28460) from channel "5.21/stable"            99% 6.68MB/s 118m[0ms[7mDownload snap "lxd" (28460) from channel "5.21/stable"           100% 6.68MB/s 0.0ns[0mFetch and check assertions for snap "lxd" (28460)                                  \Fetch and check assertions for snap "lxd" (28460)                                  |Fetch and check assertions for snap "lxd" (28460)                                  /Fetch and check assertions for snap "lxd" (28460)                                  -Fetch and check assertions for snap "lxd" (28460)                                  \Fetch and check assertions for snap "lxd" (28460)                                  |Fetch and check assertions for snap "lxd" (28460)                                  /Fetch and check assertions for snap "lxd" (28460)                                  -Fetch and check assertions for snap "lxd" (28460)                                  \Fetch and check assertions for snap "lxd" (28460)                                  |Mount snap "lxd" (28460)                                                           /Mount snap "lxd" (28460)                                                           -Mount snap "lxd" (28460)                                                           \Mount snap "lxd" (28460)                                                           |Mount snap "lxd" (28460)                                                           /Mount snap "lxd" (28460)                                                           -Mount snap "lxd" (28460)                                                           \Setup snap "lxd" (28460) security profiles                                         |Setup snap "lxd" (28460) security profiles                                         /Setup snap "lxd" (28460) security profiles                                         -Setup snap "lxd" (28460) security profiles                                         \Setup snap "lxd" (28460) security profiles                                         |Setup snap "lxd" (28460) security profiles                                         /Setup snap "lxd" (28460) security profiles                                         -Setup snap "lxd" (28460) security profiles                                         \Setup snap "lxd" (28460) security profiles                                         |Setup snap "lxd" (28460) security profiles                                         /Setup snap "lxd" (28460) security profiles                                         -Connect lxd:network to snapd:network                                               \Setup snap "lxd" (28460) security profiles for auto-connections                    |Setup snap "lxd" (28460) security profiles for auto-connections                    /Setup snap "lxd" (28460) security profiles for auto-connections                    -Setup snap "lxd" (28460) security profiles for auto-connections                    \Setup snap "lxd" (28460) security profiles for auto-connections                    |Setup snap "lxd" (28460) security profiles for auto-connections                    /Setup snap "lxd" (28460) security profiles for auto-connections                    -Setup snap "lxd" (28460) security profiles for auto-connections                    \Setup snap "lxd" (28460) security profiles for auto-connections                    |Setup snap "lxd" (28460) security profiles for auto-connections                    /Setup snap "lxd" (28460) security profiles for auto-connections                    -Set automatic aliases for snap "lxd"                                               \Run install hook of "lxd" snap if present                                          |Run install hook of "lxd" snap if present                                          /Run install hook of "lxd" snap if present                                          -Start snap "lxd" (28460) services                                                  \Start snap "lxd" (28460) services                                                  |Start snap "lxd" (28460) services                                                  /Start snap "lxd" (28460) services                                                  -Start snap "lxd" (28460) services                                                  \Start snap "lxd" (28460) services                                                  |Start snap "lxd" (28460) services                                                  /Start snap "lxd" (28460) services                                                  -Start snap "lxd" (28460) services                                                  \Start snap "lxd" (28460) services                                                  |Start snap "lxd" (28460) services                                                  /Start snap "lxd" (28460) services                                                  -Start snap "lxd" (28460) services                                                  \Start snap "lxd" (28460) services                                                  |Run configure hook of "lxd" snap if present                                        /Run configure hook of "lxd" snap if present                                        -Run configure hook of "lxd" snap if present                                        \Run configure hook of "lxd" snap if present                                        |Run configure hook of "lxd" snap if present                                        /Run configure hook of "lxd" snap if present                                        -Run health check of "lxd" snap                                                     \[0m[?25h[Klxd (5.21/stable) 5.21.1-d46c406 from Canonical[32m✓[0m installed
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ sudo lxd init
+[?2004lWould you like to use LXD clustering? (yes/no) [default=no]: 
+Do you want to configure a new storage pool? (yes/no) [default=yes]: 
+Name of the new storage pool [default=default]: 
+Name of the storage backend to use (lvm, powerflex, zfs, btrfs, ceph, dir) [default=zfs]: 
+Create a new ZFS pool? (yes/no) [default=yes]: 
+Would you like to use an existing empty block device (e.g. a disk or partition)? (yes/no) [default=no]: 
+Size in GiB of the new loop device (1GiB minimum) [default=5GiB]: 1
+Would you like to connect to a MAAS server? (yes/no) [default=no]: 
+Would you like to create a new local network bridge? (yes/no) [default=yes]: 
+What should the new bridge be called? [default=lxdbr0]: 
+What IPv4 address should be used? (CIDR subnet notation, “auto” or “none”) [default=auto]: 
+What IPv6 address should be used? (CIDR subnet notation, “auto” or “none”) [default=auto]: 
+Would you like the LXD server to be available over the network? (yes/no) [default=no]: 
+Would you like stale cached images to be updated automatically? (yes/no) [default=yes]: 
+Would you like a YAML "lxd init" preseed to be printed? (yes/no) [default=no]: yes
+config: {}
+networks:
+- config:
+    ipv4.address: auto
+    ipv6.address: auto
+  description: ""
+  name: lxdbr0
+  type: ""
+  project: default
+storage_pools:
+- config:
+    size: 1GiB
+  description: ""
+  name: default
+  driver: zfs
+storage_volumes: []
+profiles:
+- config: {}
+  description: ""
+  devices:
+    eth0:
+      name: eth0
+      network: lxdbr0
+      type: nic
+    root:
+      path: /
+      pool: default
+      type: disk
+  name: default
+projects: []
+cluster: null
+
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ lxc image list ubuntu
+[?2004lIf this is your first time running LXD on this machine, you should also run: lxd init
+To start your first container, try: lxc launch ubuntu:22.04
+Or for a virtual machine: lxc launch ubuntu:22.04 --vm
+
+Error: Get "http://unix.socket/1.0": dial unix /var/snap/lxd/common/lxd/unix.socket: connect: permission denied
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ lxc image list ubuntu[1@s[1@u[1@d[1@o[1@ 
+[?2004lTo start your first container, try: lxc launch ubuntu:22.04
+Or for a virtual machine: lxc launch ubuntu:22.04 --vm
+
++-------+-------------+--------+-------------+--------------+------+------+-------------+
+| ALIAS | FINGERPRINT | PUBLIC | DESCRIPTION | ARCHITECTURE | TYPE | SIZE | UPLOAD DATE |
++-------+-------------+--------+-------------+--------------+------+------+-------------+
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ dufo[K[K[K[Ksudo [7mlxc launch ubuntu:22.04[27mlxc launch ubuntu:22.04
+[?2004l[sudo] password for dev: 
+Creating the instance
+Retrieving image: metadata: 100% (25.43MB/s)                                             Retrieving image: rootfs: 1% (380.44kB/s)                                             Retrieving image: rootfs: 2% (713.24kB/s)                                             Retrieving image: rootfs: 3% (1.02MB/s)                                             Retrieving image: rootfs: 4% (1.30MB/s)                                             Retrieving image: rootfs: 5% (1.55MB/s)                                             Retrieving image: rootfs: 6% (1.76MB/s)                                             Retrieving image: rootfs: 7% (1.97MB/s)                                             Retrieving image: rootfs: 8% (2.14MB/s)                                             Retrieving image: rootfs: 9% (2.27MB/s)                                             Retrieving image: rootfs: 10% (2.45MB/s)                                             Retrieving image: rootfs: 10% (2.58MB/s)                                             Retrieving image: rootfs: 11% (2.69MB/s)                                             Retrieving image: rootfs: 12% (2.82MB/s)                                             Retrieving image: rootfs: 13% (2.92MB/s)                                             Retrieving image: rootfs: 14% (3.01MB/s)                                             Retrieving image: rootfs: 15% (3.13MB/s)                                             Retrieving image: rootfs: 16% (3.22MB/s)                                             Retrieving image: rootfs: 17% (3.23MB/s)                                             Retrieving image: rootfs: 18% (3.29MB/s)                                             Retrieving image: rootfs: 19% (3.41MB/s)                                             Retrieving image: rootfs: 19% (3.45MB/s)                                             Retrieving image: rootfs: 20% (3.51MB/s)                                             Retrieving image: rootfs: 21% (3.59MB/s)                                             Retrieving image: rootfs: 22% (3.63MB/s)                                             Retrieving image: rootfs: 23% (3.69MB/s)                                             Retrieving image: rootfs: 24% (3.76MB/s)                                             Retrieving image: rootfs: 25% (3.80MB/s)                                             Retrieving image: rootfs: 26% (3.84MB/s)                                             Retrieving image: rootfs: 27% (3.90MB/s)                                             Retrieving image: rootfs: 28% (3.96MB/s)                                             Retrieving image: rootfs: 29% (4.03MB/s)                                             Retrieving image: rootfs: 29% (4.10MB/s)                                             Retrieving image: rootfs: 30% (4.18MB/s)                                             Retrieving image: rootfs: 31% (4.26MB/s)                                             Retrieving image: rootfs: 32% (4.35MB/s)                                             Retrieving image: rootfs: 33% (4.42MB/s)                                             Retrieving image: rootfs: 34% (4.50MB/s)                                             Retrieving image: rootfs: 35% (4.58MB/s)                                             Retrieving image: rootfs: 36% (4.66MB/s)                                             Retrieving image: rootfs: 37% (4.62MB/s)                                             Retrieving image: rootfs: 38% (4.69MB/s)                                             Retrieving image: rootfs: 38% (4.77MB/s)                                             Retrieving image: rootfs: 39% (4.81MB/s)                                             Retrieving image: rootfs: 40% (4.88MB/s)                                             Retrieving image: rootfs: 41% (4.93MB/s)                                             Retrieving image: rootfs: 42% (4.99MB/s)                                             Retrieving image: rootfs: 43% (5.07MB/s)                                             Retrieving image: rootfs: 44% (5.14MB/s)                                             Retrieving image: rootfs: 45% (5.17MB/s)                                             Retrieving image: rootfs: 46% (5.23MB/s)                                             Retrieving image: rootfs: 47% (5.29MB/s)                                             Retrieving image: rootfs: 48% (5.33MB/s)                                             Retrieving image: rootfs: 48% (5.38MB/s)                                             Retrieving image: rootfs: 49% (5.45MB/s)                                             Retrieving image: rootfs: 50% (5.50MB/s)                                             Retrieving image: rootfs: 51% (5.56MB/s)                                             Retrieving image: rootfs: 52% (5.61MB/s)                                             Retrieving image: rootfs: 53% (5.66MB/s)                                             Retrieving image: rootfs: 54% (5.72MB/s)                                             Retrieving image: rootfs: 55% (5.77MB/s)                                             Retrieving image: rootfs: 56% (5.79MB/s)                                             Retrieving image: rootfs: 57% (5.85MB/s)                                             Retrieving image: rootfs: 57% (5.89MB/s)                                             Retrieving image: rootfs: 58% (5.95MB/s)                                             Retrieving image: rootfs: 59% (5.99MB/s)                                             Retrieving image: rootfs: 60% (6.05MB/s)                                             Retrieving image: rootfs: 61% (6.07MB/s)                                             Retrieving image: rootfs: 62% (6.13MB/s)                                             Retrieving image: rootfs: 63% (6.15MB/s)                                             Retrieving image: rootfs: 64% (6.20MB/s)                                             Retrieving image: rootfs: 65% (6.24MB/s)                                             Retrieving image: rootfs: 66% (6.28MB/s)                                             Retrieving image: rootfs: 66% (6.33MB/s)                                             Retrieving image: rootfs: 67% (6.35MB/s)                                             Retrieving image: rootfs: 68% (6.40MB/s)                                             Retrieving image: rootfs: 69% (6.41MB/s)                                             Retrieving image: rootfs: 70% (6.46MB/s)                                             Retrieving image: rootfs: 71% (6.49MB/s)                                             Retrieving image: rootfs: 72% (6.53MB/s)                                             Retrieving image: rootfs: 73% (6.57MB/s)                                             Retrieving image: rootfs: 74% (6.62MB/s)                                             Retrieving image: rootfs: 75% (6.60MB/s)                                             Retrieving image: rootfs: 76% (6.65MB/s)                                             Retrieving image: rootfs: 76% (6.69MB/s)                                             Retrieving image: rootfs: 77% (6.73MB/s)                                             Retrieving image: rootfs: 78% (6.76MB/s)                                             Retrieving image: rootfs: 79% (6.80MB/s)                                             Retrieving image: rootfs: 80% (6.84MB/s)                                             Retrieving image: rootfs: 81% (6.88MB/s)                                             Retrieving image: rootfs: 82% (6.90MB/s)                                             Retrieving image: rootfs: 83% (6.93MB/s)                                             Retrieving image: rootfs: 84% (6.95MB/s)                                             Retrieving image: rootfs: 85% (6.97MB/s)                                             Retrieving image: rootfs: 85% (7.00MB/s)                                             Retrieving image: rootfs: 86% (7.03MB/s)                                             Retrieving image: rootfs: 87% (7.08MB/s)                                             Retrieving image: rootfs: 88% (7.11MB/s)                                             Retrieving image: rootfs: 89% (7.15MB/s)                                             Retrieving image: rootfs: 90% (7.17MB/s)                                             Retrieving image: rootfs: 91% (7.18MB/s)                                             Retrieving image: rootfs: 92% (7.21MB/s)                                             Retrieving image: rootfs: 93% (7.25MB/s)                                             Retrieving image: rootfs: 94% (7.28MB/s)                                             Retrieving image: rootfs: 95% (7.32MB/s)                                             Retrieving image: rootfs: 95% (7.34MB/s)                                             Retrieving image: rootfs: 96% (7.37MB/s)                                             Retrieving image: rootfs: 97% (7.39MB/s)                                             Retrieving image: rootfs: 98% (7.42MB/s)                                             Retrieving image: rootfs: 99% (7.45MB/s)                                             Retrieving image: rootfs: 100% (7.47MB/s)                                             Retrieving image: Unpack: 100% (24.58MB/s)                                             Retrieving image: Unpack: 100% (24.58MB/s)                                             Instance name is: pleasing-gelding
+Starting pleasing-gelding
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ [7msudo lxc list[27msudo lxc list
+[?2004l+------------------+---------+----------------------+-----------------------------------------------+-----------+-----------+
+|       NAME       |  STATE  |         IPV4         |                     IPV6                      |   TYPE    | SNAPSHOTS |
++------------------+---------+----------------------+-----------------------------------------------+-----------+-----------+
+| pleasing-gelding | RUNNING | 10.154.233.70 (eth0) | fd42:a028:96d3:dbb9:216:3eff:fefd:ba47 (eth0) | CONTAINER | 0         |
++------------------+---------+----------------------+-----------------------------------------------+-----------+-----------+
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ [K]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ ыгвщ [K[K[K[K[Ksudo lxc exec pleasing-gelding -- /bin/bash
+[?2004l[?2004h]0;root@pleasing-gelding: ~root@pleasing-gelding:~# apt update
+[?2004l[33m0% [Working][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+[33m0% [Waiting for headers] [1 InRelease 13.7 kB/129 kB 11%][0m                                                         Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+[33m0% [Waiting for headers] [1 InRelease 13.7 kB/129 kB 11%][0m                                                         Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+[33m0% [3 InRelease 13.7 kB/128 kB 11%] [1 InRelease 22.1 kB/129 kB 17%][0m[33m                                                                    0% [3 InRelease 58.5 kB/128 kB 46%] [1 InRelease 109 kB/129 kB 84%][0m[33m                                                                   0% [3 InRelease 68.3 kB/128 kB 53%][0m[33m0% [3 InRelease 73.9 kB/128 kB 58%][0m[33m                                   0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+[33m0% [4 InRelease 2492 B/127 kB 2%] [Waiting for headers][0m                                                       Get:5 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1587 kB]
+[33m0% [4 InRelease 38.9 kB/127 kB 31%] [5 Packages 2589 B/1587 kB 0%][0m[33m0% [4 InRelease 83.7 kB/127 kB 66%] [5 Packages 55.8 kB/1587 kB 4%][0m[33m                                                                   0% [5 Packages 109 kB/1587 kB 7%][0m                                 Get:6 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+[33m0% [6 Packages 2558 B/14.1 MB 0%] [5 Packages 260 kB/1587 kB 16%][0m[33m13% [6 Packages 78.2 kB/14.1 MB 1%] [5 Packages 355 kB/1587 kB 22%][0m[33m                                                                   17% [6 Packages 623 kB/14.1 MB 4%][0m[33m17% [5 Packages store 0 B] [6 Packages 635 kB/14.1 MB 5%] [Waiting for headers][0m                                                                               Get:7 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [269 kB]
+[33m18% [5 Packages store 0 B] [6 Packages 904 kB/14.1 MB 6%] [7 Translation-en 8191 B/269 kB 3%][0m                                                                                             Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [13.0 kB]
+[33m19% [5 Packages store 0 B] [6 Packages 904 kB/14.1 MB 6%] [8 Commands-amd64 3448 B/13.0 kB 26%][0m[33m                                                                                               19% [5 Packages store 0 B] [6 Packages 904 kB/14.1 MB 6%] [Waiting for headers][0m                                                                               Get:9 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [2037 kB]
+[33m20% [5 Packages store 0 B] [6 Packages 904 kB/14.1 MB 6%] [9 Packages 318 kB/2037 kB 16%][0m                                                                                         Get:10 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [348 kB]
+[33m29% [5 Packages store 0 B] [6 Packages 3055 kB/14.1 MB 22%] [10 Translation-en 32.0 kB/348 kB 9%][0m[33m                                                                                                 30% [5 Packages store 0 B] [6 Packages 3186 kB/14.1 MB 23%][0m                                                           Get:11 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [572 B]
+[33m31% [5 Packages store 0 B] [6 Packages 3514 kB/14.1 MB 25%] [11 Commands-amd64 0 B/572 B 0%][0m[33m                                                                                            31% [5 Packages store 0 B] [6 Packages 3579 kB/14.1 MB 25%] [Waiting for headers][0m                                                                                 Get:12 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [884 kB]
+[33m31% [5 Packages store 0 B] [6 Packages 3579 kB/14.1 MB 25%] [12 Packages 65.3 kB/884 kB 7%][0m[33m                                                                                           35% [6 Packages 4007 kB/14.1 MB 28%] [12 Packages 857 kB/884 kB 97%][0m[33m35% [7 Translation-en store 0 B] [6 Packages 4007 kB/14.1 MB 28%] [12 Packages 857 kB/884 kB 97%][0m[33m                                                                                                 35% [7 Translation-en store 0 B] [6 Packages 4236 kB/14.1 MB 30%] [Waiting for headers][0m                                                                                       Get:13 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [172 kB]
+[33m35% [7 Translation-en store 0 B] [6 Packages 4236 kB/14.1 MB 30%] [13 Translation-en 34.7 kB/172 kB 20%][0m[33m                                                                                                        36% [7 Translation-en store 0 B] [6 Packages 4236 kB/14.1 MB 30%] [Waiting for headers][0m                                                                                       Get:14 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [18.9 kB]
+[33m36% [7 Translation-en store 0 B] [6 Packages 4236 kB/14.1 MB 30%] [14 Commands-amd64 18.9 kB/18.9 kB 100%][0m                                                                                                          Get:15 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [37.2 kB]
+                                                                                                          Get:16 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [7588 B]
+[33m                                                                                                          36% [7 Translation-en store 0 B] [6 Packages 4236 kB/14.1 MB 30%] [16 Translation-en 3126 B/7588 B 41%][0m[33m                                                                                                       39% [6 Packages 5356 kB/14.1 MB 38%] [16 Translation-en 3126 B/7588 B 41%][0m[33m39% [8 Commands-amd64 store 0 B] [6 Packages 5356 kB/14.1 MB 38%] [16 Translation-en 3126 B/7588 B 41%][0m[33m                                                                                                       39% [6 Packages 5356 kB/14.1 MB 38%] [16 Translation-en 3126 B/7588 B 41%][0m[33m39% [9 Packages store 0 B] [6 Packages 5356 kB/14.1 MB 38%] [16 Translation-en 3126 B/7588 B 41%][0m                                                                                                 Get:17 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [228 B]
+[33m                                                                                                 40% [9 Packages store 0 B] [6 Packages 5576 kB/14.1 MB 40%][0m[33m54% [9 Packages store 0 B] [6 Packages 11.4 MB/14.1 MB 81%][0m[33m                                                           58% [6 Packages 12.9 MB/14.1 MB 92%][0m[33m58% [10 Translation-en store 0 B] [6 Packages 12.9 MB/14.1 MB 92%][0m[33m                                                                  61% [10 Translation-en store 0 B] [Waiting for headers][0m                                                       Get:18 http://archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
+[33m61% [10 Translation-en store 0 B] [18 Translation-en 60.4 kB/5652 kB 1%][0m[33m                                                                        64% [18 Translation-en 1196 kB/5652 kB 21%][0m[33m64% [11 Commands-amd64 store 0 B] [18 Translation-en 1196 kB/5652 kB 21%][0m[33m                                                                         65% [18 Translation-en 1196 kB/5652 kB 21%][0m[33m65% [12 Packages store 0 B] [18 Translation-en 1196 kB/5652 kB 21%][0m[33m                                                                   66% [18 Translation-en 1577 kB/5652 kB 28%][0m[33m66% [13 Translation-en store 0 B] [18 Translation-en 1577 kB/5652 kB 28%][0m[33m                                                                         66% [18 Translation-en 1577 kB/5652 kB 28%][0m[33m66% [14 Commands-amd64 store 0 B] [18 Translation-en 1577 kB/5652 kB 28%][0m[33m                                                                         66% [18 Translation-en 1577 kB/5652 kB 28%][0m[33m66% [15 Packages store 0 B] [18 Translation-en 1577 kB/5652 kB 28%][0m[33m                                                                   66% [18 Translation-en 1577 kB/5652 kB 28%][0m[33m66% [16 Translation-en store 0 B] [18 Translation-en 1577 kB/5652 kB 28%][0m[33m                                                                         67% [18 Translation-en 1577 kB/5652 kB 28%][0m[33m67% [17 Commands-amd64 store 0 B] [18 Translation-en 1577 kB/5652 kB 28%][0m[33m                                                                         67% [18 Translation-en 1577 kB/5652 kB 28%][0m[33m67% [6 Packages store 0 B] [18 Translation-en 1577 kB/5652 kB 28%][0m                                                                  Get:19 http://archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+[33m                                                                  77% [6 Packages store 0 B] [19 Commands-amd64 71.8 kB/286 kB 25%][0m                                                                 Get:20 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
+[33m                                                                 78% [6 Packages store 0 B] [20 Packages 217 kB/217 kB 100%][0m                                                           Get:21 http://archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
+                                                           Get:22 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
+                                                           Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1794 kB]
+[33m81% [6 Packages store 0 B] [23 Packages 983 kB/1794 kB 55%]                                                                              4506 kB/s 1s[0m[33m83% [6 Packages store 0 B] [Waiting for headers]                                                                                         4506 kB/s 0s[0m                                                                                                                                                     Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [326 kB]
+[33m83% [6 Packages store 0 B] [24 Translation-en 0 B/326 kB 0%]                                                                             4506 kB/s 0s[0m[33m84% [6 Packages store 0 B]                                                                                                               4506 kB/s 0s[0m                                                                                                                                                     Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [17.7 kB]
+                                                                                                                                                     Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [2093 kB]
+[33m84% [6 Packages store 0 B] [26 Packages 196 kB/2093 kB 9%]                                                                               4506 kB/s 0s[0m[33m89% [6 Packages store 0 B] [Waiting for headers]                                                                                         4506 kB/s 0s[0m                                                                                                                                                     Get:27 http://archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [357 kB]
+[33m89% [6 Packages store 0 B] [27 Translation-en 26.2 kB/357 kB 7%]                                                                         4506 kB/s 0s[0m                                                                                                                                                     Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [604 B]
+[33m90% [6 Packages store 0 B] [28 Commands-amd64 604 B/604 B 100%]                                                                          4506 kB/s 0s[0m                                                                                                                                                     Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1101 kB]
+[33m90% [6 Packages store 0 B] [29 Packages 131 kB/1101 kB 12%]                                                                              4506 kB/s 0s[0m                                                                                                                                                     Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [256 kB]
+[33m93% [6 Packages store 0 B] [30 Translation-en 392 B/256 kB 0%]                                                                           4506 kB/s 0s[0m[33m93% [6 Packages store 0 B] [Waiting for headers]                                                                                         4506 kB/s 0s[0m                                                                                                                                                     Get:31 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [25.4 kB]
+[33m93% [6 Packages store 0 B] [31 Commands-amd64 17.3 kB/25.4 kB 68%]                                                                       4506 kB/s 0s[0m[33m93% [6 Packages store 0 B] [Waiting for headers]                                                                                         4506 kB/s 0s[0m                                                                                                                                                     Get:32 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [43.3 kB]
+[33m93% [6 Packages store 0 B] [Waiting for headers]                                                                                         4506 kB/s 0s[0m                                                                                                                                                     Get:33 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [10.8 kB]
+[33m94% [6 Packages store 0 B] [33 Translation-en 10.8 kB/10.8 kB 100%]                                                                      4506 kB/s 0s[0m[33m94% [6 Packages store 0 B] [Waiting for headers]                                                                                         4506 kB/s 0s[0m                                                                                                                                                     Get:34 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [444 B]
+                                                                                                                                                     Get:35 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [67.1 kB]
+[33m94% [6 Packages store 0 B] [35 Packages 23.6 kB/67.1 kB 35%]                                                                             4506 kB/s 0s[0m[33m94% [6 Packages store 0 B] [Waiting for headers]                                                                                         4506 kB/s 0s[0m                                                                                                                                                     Get:36 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.0 kB]
+[33m94% [6 Packages store 0 B] [36 Translation-en 3963 B/11.0 kB 36%]                                                                        4506 kB/s 0s[0m                                                                                                                                                     Get:37 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [388 B]
+[33m94% [6 Packages store 0 B] [37 Commands-amd64 388 B/388 B 100%]                                                                          4506 kB/s 0s[0m                                                                                                                                                     Get:38 http://archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+[33m94% [6 Packages store 0 B] [38 Commands-amd64 116 B/116 B 100%]                                                                          4506 kB/s 0s[0m[33m94% [6 Packages store 0 B] [Waiting for headers]                                                                                         4506 kB/s 0s[0m                                                                                                                                                     Get:39 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [27.6 kB]
+[33m94% [6 Packages store 0 B] [39 Packages 8829 B/27.6 kB 32%]                                                                              4506 kB/s 0s[0m                                                                                                                                                     Get:40 http://archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.5 kB]
+[33m94% [6 Packages store 0 B] [Waiting for headers]                                                                                         4506 kB/s 0s[0m                                                                                                                                                     Get:41 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [672 B]
+                                                                                                                                                     Get:42 http://archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+[33m94% [6 Packages store 0 B] [42 Commands-amd64 116 B/116 B 100%]                                                                          4506 kB/s 0s[0m[33m94% [6 Packages store 0 B]                                                                                                               4506 kB/s 0s[0m[33m94% [6 Packages store 0 B]                                                                                                               4506 kB/s 0s[0m[33m94% [6 Packages store 0 B]                                                                                                               4506 kB/s 0s[0m[33m94% [6 Packages store 0 B]                                                                                                               4506 kB/s 0s[0m[33m94% [6 Packages store 0 B]                                                                                                               4506 kB/s 0s[0m[33m94% [Working]                                                                                                                            4506 kB/s 0s[0m[33m94% [18 Translation-en store 0 B]                                                                                                        4506 kB/s 0s[0m[33m94% [18 Translation-en store 0 B]                                                                                                        4506 kB/s 0s[0m[33m94% [18 Translation-en store 0 B]                                                                                                        4506 kB/s 0s[0m[33m94% [Working]                                                                                                                            4506 kB/s 0s[0m[33m94% [19 Commands-amd64 store 0 B]                                                                                                        4506 kB/s 0s[0m[33m95% [Working]                                                                                                                            4506 kB/s 0s[0m[33m95% [20 Packages store 0 B]                                                                                                              4506 kB/s 0s[0m[33m95% [Working]                                                                                                                            4506 kB/s 0s[0m[33m95% [21 Translation-en store 0 B]                                                                                                        4506 kB/s 0s[0m[33m95% [Working]                                                                                                                            4506 kB/s 0s[0m[33m95% [22 Commands-amd64 store 0 B]                                                                                                        4506 kB/s 0s[0m[33m95% [Working]                                                                                                                            4506 kB/s 0s[0m[33m95% [23 Packages store 0 B]                                                                                                              4506 kB/s 0s[0m[33m95% [Working]                                                                                                                            4506 kB/s 0s[0m[33m95% [24 Translation-en store 0 B]                                                                                                        4506 kB/s 0s[0m[33m96% [Working]                                                                                                                            4506 kB/s 0s[0m[33m96% [25 Commands-amd64 store 0 B]                                                                                                        4506 kB/s 0s[0m[33m96% [Working]                                                                                                                            4506 kB/s 0s[0m[33m96% [26 Packages store 0 B]                                                                                                              4506 kB/s 0s[0m[33m96% [26 Packages store 0 B]                                                                                                              4506 kB/s 0s[0m[33m96% [Working]                                                                                                                            4506 kB/s 0s[0m[33m96% [27 Translation-en store 0 B]                                                                                                        4506 kB/s 0s[0m[33m96% [Working]                                                                                                                            4506 kB/s 0s[0m[33m96% [28 Commands-amd64 store 0 B]                                                                                                        4506 kB/s 0s[0m[33m97% [Working]                                                                                                                            4506 kB/s 0s[0m[33m97% [29 Packages store 0 B]                                                                                                              4506 kB/s 0s[0m[33m97% [Working]                                                                                                                             847 kB/s 0s[0m[33m97% [30 Translation-en store 0 B]                                                                                                         847 kB/s 0s[0m[33m97% [Working]                                                                                                                             847 kB/s 0s[0m[33m97% [31 Commands-amd64 store 0 B]                                                                                                         847 kB/s 0s[0m[33m97% [Working]                                                                                                                             847 kB/s 0s[0m[33m97% [32 Packages store 0 B]                                                                                                               847 kB/s 0s[0m[33m98% [Working]                                                                                                                             847 kB/s 0s[0m[33m98% [33 Translation-en store 0 B]                                                                                                         847 kB/s 0s[0m[33m98% [Working]                                                                                                                             847 kB/s 0s[0m[33m98% [34 Commands-amd64 store 0 B]                                                                                                         847 kB/s 0s[0m[33m98% [Working]                                                                                                                             847 kB/s 0s[0m[33m98% [35 Packages store 0 B]                                                                                                               847 kB/s 0s[0m[33m98% [Working]                                                                                                                             847 kB/s 0s[0m[33m98% [36 Translation-en store 0 B]                                                                                                         847 kB/s 0s[0m[33m99% [Working]                                                                                                                             847 kB/s 0s[0m[33m99% [37 Commands-amd64 store 0 B]                                                                                                         847 kB/s 0s[0m[33m99% [Working]                                                                                                                             847 kB/s 0s[0m[33m99% [38 Commands-amd64 store 0 B]                                                                                                         847 kB/s 0s[0m[33m99% [Working]                                                                                                                             847 kB/s 0s[0m[33m99% [39 Packages store 0 B]                                                                                                               847 kB/s 0s[0m[33m99% [Working]                                                                                                                             847 kB/s 0s[0m[33m99% [40 Translation-en store 0 B]                                                                                                         847 kB/s 0s[0m[33m100% [Working]                                                                                                                            847 kB/s 0s[0m[33m100% [41 Commands-amd64 store 0 B]                                                                                                        847 kB/s 0s[0m[33m100% [Working]                                                                                                                            847 kB/s 0s[0m[33m100% [42 Commands-amd64 store 0 B]                                                                                                        847 kB/s 0s[0m[33m100% [Working]                                                                                                                            847 kB/s 0s[0m                                                                                                                                                     Fetched 32.3 MB in 12s (2625 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 38%Reading package lists... 38%Reading package lists... 46%Reading package lists... 54%Reading package lists... 54%Reading package lists... 54%Reading package lists... 54%Reading package lists... 55%Reading package lists... 55%Reading package lists... 60%Reading package lists... 60%Reading package lists... 63%Reading package lists... 63%Reading package lists... 69%Reading package lists... 69%Reading package lists... 73%Reading package lists... 73%Reading package lists... 76%Reading package lists... 76%Reading package lists... 77%Reading package lists... 77%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 78%Reading package lists... 83%Reading package lists... 83%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+11 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[?2004h]0;root@pleasing-gelding: ~root@pleasing-gelding:~# apt install -y apache2
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils bzip2 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.3-0 mailcap mime-support
+  ssl-cert
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser bzip2-doc
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils bzip2 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.3-0 mailcap mime-support
+  ssl-cert
+0 upgraded, 13 newly installed, 0 to remove and 11 not upgraded.
+Need to get 2142 kB of archives.
+After this operation, 8524 kB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libapr1 amd64 1.7.0-8ubuntu0.22.04.1 [108 kB]
+[33m0% [1 libapr1 8108 B/108 kB 8%][0m[33m2% [1 libapr1 54.3 kB/108 kB 50%][0m[33m                                 6% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1 amd64 1.6.1-5ubuntu4.22.04.2 [92.8 kB]
+[33m6% [2 libaprutil1 0 B/92.8 kB 0%][0m[33m                                 11% [Waiting for headers][0m                         Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-5ubuntu4.22.04.2 [11.3 kB]
+[33m11% [3 libaprutil1-dbd-sqlite3 1861 B/11.3 kB 16%][0m[33m                                                  13% [Waiting for headers][0m                         Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libaprutil1-ldap amd64 1.6.1-5ubuntu4.22.04.2 [9170 B]
+[33m13% [4 libaprutil1-ldap 1428 B/9170 B 16%][0m[33m                                          14% [Waiting for headers][0m                         Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 liblua5.3-0 amd64 5.3.6-1build1 [140 kB]
+[33m14% [5 liblua5.3-0 366 B/140 kB 0%][0m[33m                                   21% [Waiting for headers][0m                         Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-bin amd64 2.4.52-1ubuntu4.11 [1349 kB]
+[33m21% [6 apache2-bin 2272 B/1349 kB 0%][0m[33m62% [6 apache2-bin 1093 kB/1349 kB 81%][0m[33m                                       73% [Waiting for headers][0m                         Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-data all 2.4.52-1ubuntu4.11 [165 kB]
+[33m73% [7 apache2-data 4886 B/165 kB 3%][0m[33m                                     81% [Waiting for headers][0m                         Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2-utils amd64 2.4.52-1ubuntu4.11 [89.2 kB]
+[33m81% [8 apache2-utils 6993 B/89.2 kB 8%][0m[33m                                       86% [Waiting for headers][0m                         Get:9 http://archive.ubuntu.com/ubuntu jammy/main amd64 mailcap all 3.70+nmu1ubuntu1 [23.8 kB]
+[33m86% [9 mailcap 13.7 kB/23.8 kB 57%][0m[33m                                   88% [Waiting for headers][0m                         Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 mime-support all 3.66 [3696 B]
+[33m90% [Waiting for headers][0m                         Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apache2 amd64 2.4.52-1ubuntu4.11 [97.9 kB]
+[33m90% [11 apache2 7957 B/97.9 kB 8%][0m[33m                                  95% [Waiting for headers][0m                         Get:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 bzip2 amd64 1.0.8-5build1 [34.8 kB]
+[33m95% [12 bzip2 5042 B/34.8 kB 14%][0m[33m                                 98% [Waiting for headers][0m                         Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 ssl-cert all 1.1.2 [17.4 kB]
+[33m98% [13 ssl-cert 9696 B/17.4 kB 56%][0m[33m                                    100% [Working][0m              Fetched 2142 kB in 3s (762 kB/s)
+Preconfiguring packages ...
+
+7[0;37r8[1ASelecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33953 files and directories currently installed.)
+Preparing to unpack .../00-libapr1_1.7.0-8ubuntu0.22.04.1_amd64.deb ...
+7[38;0f[42m[30mProgress: [  0%][49m[39m [................................................................................................................................] 87[38;0f[42m[30mProgress: [  2%][49m[39m [##..............................................................................................................................] 8Unpacking libapr1:amd64 (1.7.0-8ubuntu0.22.04.1) ...
+7[38;0f[42m[30mProgress: [  4%][49m[39m [####............................................................................................................................] 8Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../01-libaprutil1_1.6.1-5ubuntu4.22.04.2_amd64.deb ...
+7[38;0f[42m[30mProgress: [  6%][49m[39m [#######.........................................................................................................................] 8Unpacking libaprutil1:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[38;0f[42m[30mProgress: [  8%][49m[39m [#########.......................................................................................................................] 8Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../02-libaprutil1-dbd-sqlite3_1.6.1-5ubuntu4.22.04.2_amd64.deb ...
+7[38;0f[42m[30mProgress: [  9%][49m[39m [############....................................................................................................................] 8Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[38;0f[42m[30mProgress: [ 11%][49m[39m [##############..................................................................................................................] 8Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../03-libaprutil1-ldap_1.6.1-5ubuntu4.22.04.2_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 13%][49m[39m [################................................................................................................................] 8Unpacking libaprutil1-ldap:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[38;0f[42m[30mProgress: [ 15%][49m[39m [###################.............................................................................................................] 8Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../04-liblua5.3-0_5.3.6-1build1_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 17%][49m[39m [#####################...........................................................................................................] 8Unpacking liblua5.3-0:amd64 (5.3.6-1build1) ...
+7[38;0f[42m[30mProgress: [ 19%][49m[39m [########################........................................................................................................] 8Selecting previously unselected package apache2-bin.
+Preparing to unpack .../05-apache2-bin_2.4.52-1ubuntu4.11_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 21%][49m[39m [##########################......................................................................................................] 8Unpacking apache2-bin (2.4.52-1ubuntu4.11) ...
+7[38;0f[42m[30mProgress: [ 23%][49m[39m [############################....................................................................................................] 8Selecting previously unselected package apache2-data.
+Preparing to unpack .../06-apache2-data_2.4.52-1ubuntu4.11_all.deb ...
+7[38;0f[42m[30mProgress: [ 25%][49m[39m [###############################.................................................................................................] 8Unpacking apache2-data (2.4.52-1ubuntu4.11) ...
+7[38;0f[42m[30mProgress: [ 26%][49m[39m [#################################...............................................................................................] 8Selecting previously unselected package apache2-utils.
+Preparing to unpack .../07-apache2-utils_2.4.52-1ubuntu4.11_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 28%][49m[39m [####################################............................................................................................] 8Unpacking apache2-utils (2.4.52-1ubuntu4.11) ...
+7[38;0f[42m[30mProgress: [ 30%][49m[39m [######################################..........................................................................................] 8Selecting previously unselected package mailcap.
+Preparing to unpack .../08-mailcap_3.70+nmu1ubuntu1_all.deb ...
+7[38;0f[42m[30mProgress: [ 32%][49m[39m [#########################################.......................................................................................] 8Unpacking mailcap (3.70+nmu1ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 34%][49m[39m [###########################################.....................................................................................] 8Selecting previously unselected package mime-support.
+Preparing to unpack .../09-mime-support_3.66_all.deb ...
+7[38;0f[42m[30mProgress: [ 36%][49m[39m [#############################################...................................................................................] 8Unpacking mime-support (3.66) ...
+7[38;0f[42m[30mProgress: [ 38%][49m[39m [################################################................................................................................] 8Selecting previously unselected package apache2.
+Preparing to unpack .../10-apache2_2.4.52-1ubuntu4.11_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 40%][49m[39m [##################################################..............................................................................] 8Unpacking apache2 (2.4.52-1ubuntu4.11) ...
+7[38;0f[42m[30mProgress: [ 42%][49m[39m [#####################################################...........................................................................] 8Selecting previously unselected package bzip2.
+Preparing to unpack .../11-bzip2_1.0.8-5build1_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 43%][49m[39m [#######################################################.........................................................................] 8Unpacking bzip2 (1.0.8-5build1) ...
+7[38;0f[42m[30mProgress: [ 45%][49m[39m [#########################################################.......................................................................] 8Selecting previously unselected package ssl-cert.
+Preparing to unpack .../12-ssl-cert_1.1.2_all.deb ...
+7[38;0f[42m[30mProgress: [ 47%][49m[39m [############################################################....................................................................] 8Unpacking ssl-cert (1.1.2) ...
+7[38;0f[42m[30mProgress: [ 49%][49m[39m [##############################################################..................................................................] 8Setting up libapr1:amd64 (1.7.0-8ubuntu0.22.04.1) ...
+7[38;0f[42m[30mProgress: [ 51%][49m[39m [#################################################################...............................................................] 87[38;0f[42m[30mProgress: [ 53%][49m[39m [###################################################################.............................................................] 8Setting up bzip2 (1.0.8-5build1) ...
+7[38;0f[42m[30mProgress: [ 55%][49m[39m [######################################################################..........................................................] 87[38;0f[42m[30mProgress: [ 57%][49m[39m [########################################################################........................................................] 8Setting up ssl-cert (1.1.2) ...
+7[38;0f[42m[30mProgress: [ 58%][49m[39m [##########################################################################......................................................] 87[38;0f[42m[30mProgress: [ 60%][49m[39m [#############################################################################...................................................] 8Setting up liblua5.3-0:amd64 (5.3.6-1build1) ...
+7[38;0f[42m[30mProgress: [ 62%][49m[39m [###############################################################################.................................................] 87[38;0f[42m[30mProgress: [ 64%][49m[39m [##################################################################################..............................................] 8Setting up apache2-data (2.4.52-1ubuntu4.11) ...
+7[38;0f[42m[30mProgress: [ 66%][49m[39m [####################################################################################............................................] 87[38;0f[42m[30mProgress: [ 68%][49m[39m [######################################################################################..........................................] 8Setting up mailcap (3.70+nmu1ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 70%][49m[39m [#########################################################################################.......................................] 87[38;0f[42m[30mProgress: [ 72%][49m[39m [###########################################################################################.....................................] 8Setting up libaprutil1:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[38;0f[42m[30mProgress: [ 74%][49m[39m [##############################################################################################..................................] 87[38;0f[42m[30mProgress: [ 75%][49m[39m [################################################################################################................................] 8Setting up mime-support (3.66) ...
+7[38;0f[42m[30mProgress: [ 77%][49m[39m [###################################################################################################.............................] 87[38;0f[42m[30mProgress: [ 79%][49m[39m [#####################################################################################################...........................] 8Setting up libaprutil1-ldap:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[38;0f[42m[30mProgress: [ 81%][49m[39m [#######################################################################################################.........................] 87[38;0f[42m[30mProgress: [ 83%][49m[39m [##########################################################################################################......................] 8Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-5ubuntu4.22.04.2) ...
+7[38;0f[42m[30mProgress: [ 85%][49m[39m [############################################################################################################....................] 87[38;0f[42m[30mProgress: [ 87%][49m[39m [###############################################################################################################.................] 8Setting up apache2-utils (2.4.52-1ubuntu4.11) ...
+7[38;0f[42m[30mProgress: [ 89%][49m[39m [#################################################################################################################...............] 87[38;0f[42m[30mProgress: [ 91%][49m[39m [###################################################################################################################.............] 8Setting up apache2-bin (2.4.52-1ubuntu4.11) ...
+7[38;0f[42m[30mProgress: [ 92%][49m[39m [######################################################################################################################..........] 87[38;0f[42m[30mProgress: [ 94%][49m[39m [########################################################################################################################........] 8Setting up apache2 (2.4.52-1ubuntu4.11) ...
+7[38;0f[42m[30mProgress: [ 96%][49m[39m [###########################################################################################################################.....] 8Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+7[38;0f[42m[30mProgress: [ 98%][49m[39m [#############################################################################################################################...] 8Processing triggers for ufw (0.36.1-4ubuntu0.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+
+7[0;38r8[1A[JScanning processes... [                                                                                                                              ]Scanning processes... [====                                                                                                                          ]Scanning processes... [========                                                                                                                      ]Scanning processes... [=============                                                                                                                 ]Scanning processes... [=================                                                                                                             ]Scanning processes... [=====================                                                                                                         ]Scanning processes... [==========================                                                                                                    ]Scanning processes... [==============================                                                                                                ]Scanning processes... [==================================                                                                                            ]Scanning processes... [=======================================                                                                                       ]Scanning processes... [===========================================                                                                                   ]Scanning processes... [===============================================                                                                               ]Scanning processes... [====================================================                                                                          ]Scanning processes... [========================================================                                                                      ]Scanning processes... [============================================================                                                                  ]Scanning processes... [=================================================================                                                             ]Scanning processes... [=====================================================================                                                         ]Scanning processes... [=========================================================================                                                     ]Scanning processes... [==============================================================================                                                ]Scanning processes... [==================================================================================                                            ]Scanning processes... [======================================================================================                                        ]Scanning processes... [===========================================================================================                                   ]Scanning processes... [===============================================================================================                               ]Scanning processes... [===================================================================================================                           ]Scanning processes... [========================================================================================================                      ]Scanning processes... [============================================================================================================                  ]Scanning processes... [================================================================================================================              ]Scanning processes... [=====================================================================================================================         ]Scanning processes... [=========================================================================================================================     ]Scanning processes... [==============================================================================================================================]Scanning processes...                                                                                                                                 
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+[?2004h]0;root@pleasing-gelding: ~root@pleasing-gelding:~# system [K
+systemctl                       systemd-cryptenroll             systemd-machine-id-setup        systemd-sysext
+systemd                         systemd-delta                   systemd-mount                   systemd-sysusers
+systemd-analyze                 systemd-detect-virt             systemd-notify                  systemd-tmpfiles
+systemd-ask-password            systemd-escape                  systemd-path                    systemd-tty-ask-password-agent
+systemd-cat                     systemd-hwdb                    systemd-run                     systemd-umount
+systemd-cgls                    systemd-id128                   systemd-socket-activate         
+systemd-cgtop                   systemd-inhibit                 systemd-stdio-bridge            
+]0;root@pleasing-gelding: ~root@pleasing-gelding:~# systemctl enavle[K[K[Kble apache2
+[?2004lSynchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+[?2004h]0;root@pleasing-gelding: ~root@pleasing-gelding:~# systemctl a[Kstart apache2
+[?2004l[?2004h]0;root@pleasing-gelding: ~root@pleasing-gelding:~# systemctl start apache2[1P apache2[1P apache2[1P apache2a apache2t apache2u apache2s apache2
+[?2004l[?1h=[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2024-07-14 11:26:07 UTC; 1min 31s ago[m
+       Docs: https://httpd.apache.org/docs/2.4/[m
+   Main PID: 1928 (apache2)[m
+      Tasks: 55 (limit: 7027)[m
+     Memory: 7.0M[m
+        CPU: 156ms[m
+     CGroup: /system.slice/apache2.service[m
+             ├─1928 /usr/sbin/apache2 -k start[m
+             ├─1929 /usr/sbin/apache2 -k start[m
+             └─1930 /usr/sbin/apache2 -k start[m
+[m
+Jul 14 11:26:07 pleasing-gelding systemd[1]: Starting The Apache HTTP Server...[m
+Jul 14 11:26:07 pleasing-gelding systemd[1]: Started The Apache HTTP Server.[m
+[K[?1l>[?2004h]0;root@pleasing-gelding: ~root@pleasing-gelding:~# su[K[K^C[?2004l[?2004h[?2004l
+[?2004h]0;root@pleasing-gelding: ~root@pleasing-gelding:~# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@pleasing-gelding: ~root@pleasing-gelding:~# уч[K[Kexit
+[?2004lexit
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ sudo lxc exec pleasing-gelding -- /bin/bash[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klist
+[?2004l+------------------+---------+----------------------+-----------------------------------------------+-----------+-----------+
+|       NAME       |  STATE  |         IPV4         |                     IPV6                      |   TYPE    | SNAPSHOTS |
++------------------+---------+----------------------+-----------------------------------------------+-----------+-----------+
+| pleasing-gelding | RUNNING | 10.154.233.70 (eth0) | fd42:a028:96d3:dbb9:216:3eff:fefd:ba47 (eth0) | CONTAINER | 0         |
++------------------+---------+----------------------+-----------------------------------------------+-----------+-----------+
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ ping 10.152[K3[K4.22[K33.70
+[?2004lPING 10.154.233.70 (10.154.233.70) 56(84) bytes of data.
+64 bytes from 10.154.233.70: icmp_seq=1 ttl=64 time=0.160 ms
+64 bytes from 10.154.233.70: icmp_seq=2 ttl=64 time=0.143 ms
+64 bytes from 10.154.233.70: icmp_seq=3 ttl=64 time=0.099 ms
+^C
+--- 10.154.233.70 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2083ms
+rtt min/avg/max/mdev = 0.099/0.134/0.160/0.025 ms
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ ping 10.154.233.70[C[1P 10.154.233.70[1P 10.154.233.70[1P 10.154.233.70[1P 10.154.233.70с 10.154.233.70г 10.154.233.70к 10.154.233.70д 10.154.233.70[1P 10.154.233.70[1P 10.154.233.70[1P 10.154.233.70[1P 10.154.233.70c 10.154.233.70u 10.154.233.70r 10.154.233.70l 10.154.233.70[C 10.154.233.70h 10.154.233.70t 10.154.233.70t 10.154.233.70p 10.154.233.70: 10.154.233.70/ 10.154.233.70/ 10.154.233.70[1P10.154.233.70
+[?2004lCommand 'curl' not found, but can be installed with:
+sudo snap install curl  # version 8.1.2, or
+sudo apt  install curl  # version 8.5.0-2ubuntu10.1
+See 'snap info curl' for additional versions.
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ sudo apt install curl
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  curl
+0 upgraded, 1 newly installed, 0 to remove and 77 not upgraded.
+1 not fully installed or removed.
+Need to get 227 kB of archives.
+After this operation, 532 kB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Connecting to ubuntu-mirror-2.ps5.canonical.com (185.125.190.82)][0m                                                                     Get:1 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.1 [227 kB]
+[33m                                                                     5% [1 curl 13.7 kB/227 kB 6%][0m[33m17% [1 curl 47.3 kB/227 kB 21%][0m[33m                               59% [1 curl 168 kB/227 kB 74%][0m[33m                              100% [Working][0m              Fetched 227 kB in 2s (118 kB/s)
+
+7[0;37r8[1ASelecting previously unselected package curl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 192029 files and directories currently installed.)
+Preparing to unpack .../curl_8.5.0-2ubuntu10.1_amd64.deb ...
+7[38;0f[42m[30mProgress: [  0%][49m[39m [................................................................................................................................] 87[38;0f[42m[30mProgress: [ 14%][49m[39m [##################..............................................................................................................] 8Unpacking curl (8.5.0-2ubuntu10.1) ...
+7[38;0f[42m[30mProgress: [ 29%][49m[39m [####################################............................................................................................] 8Setting up openssh-server (1:9.6p1-3ubuntu13.4) ...
+7[38;0f[42m[30mProgress: [ 43%][49m[39m [######################################################..........................................................................] 8Could not execute systemctl:  at /usr/bin/deb-systemd-invoke line 148.
+[1mdpkg:[0m error processing package openssh-server (--configure):
+ installed openssh-server package post-installation script subprocess returned error exit status 1
+Setting up curl (8.5.0-2ubuntu10.1) ...
+7[38;0f[42m[30mProgress: [ 57%][49m[39m [#########################################################################.......................................................] 87[38;0f[42m[30mProgress: [ 71%][49m[39m [###########################################################################################.....................................] 8Processing triggers for man-db (2.12.0-4build2) ...
+Errors were encountered while processing:
+ openssh-server
+
+7[0;38r8[1A[J[1;31mE: [0mSub-process /usr/bin/dpkg returned an error code (1)[0m
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ sudo apt install curl[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7msudo dpkg --configure -a[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo dpkg --configure -a
+[A
+[?2004lSetting up openssh-server (1:9.6p1-3ubuntu13.4) ...
+Could not execute systemctl:  at /usr/bin/deb-systemd-invoke line 148.
+[1mdpkg:[0m error processing package openssh-server (--configure):
+ installed openssh-server package post-installation script subprocess returned error exit status 1
+Errors were encountered while processing:
+ openssh-server
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ sudo snap insat[K[Ktall curl
+[?2004lEnsure prerequisites for "curl" are available                                                                                                        /Ensure prerequisites for "curl" are available                                                                                                        -Ensure prerequisites for "curl" are available                                                                                                        \Download snap "core20" (2318) from channel "stable"                                                                                                  |Download snap "core20" (2318) from channel "stable"                                                                                                  /Download snap "core20" (2318) from channel "stable"                                                                                                  -Download snap "core20" (2318) from channel "stable"                                                                                                  \Download snap "core20" (2318) from channel "stable"                                                                                                  |Download snap "core20" (2318) from channel "stable"                                                                                                  /Download snap "core20" (2318) from channel "stable"                                                                                                  -Download snap "core20" (2318) from channel "stable"                                                                                                  \Download snap "core20" (2318) from channel "stable"                                                                                                  |Download snap "core20" (2318) from channel "stable"                                                                                                  /Download snap "core20" (2318) from channel "stable"                                                                                                  -Download snap "core20" (2318) from channel "stable"                                                                                                  \Download snap "core20" (2318) from channel "stable"                                                                                                  |Download snap "core20" (2318) from channel "stable"                                                                                                  /[?25l[7m[0mDownload snap "core20" (2318) from channel "stable"                                                                                  0%     0B/s ages![7m[0mDownload snap "core20" (2318) from channel "stable"                                                                                  0%     0B/s ages![7m[0mDownload snap "core20" (2318) from channel "stable"                                                                                  0%     0B/s ages![7m[0mDownload snap "core20" (2318) from channel "stable"                                                                                  0%     0B/s ages![7m[0mDownload snap "core20" (2318) from channel "stable"                                                                                  0%     0B/s ages![7m[0mDownload snap "core20" (2318) from channel "stable"                                                                                  0%  233kB/s 4m47s[7m[0mDownload snap "core20" (2318) from channel "stable"                                                                                  0%  200kB/s 5m35s[7m[0mDownload snap "core20" (2318) from channel "stable"                                                                                  0%  351kB/s 3m10s[7m[0mDownload snap "core20" (2318) from channel "stable"                                                                                  1%  465kB/s 2m23s[7mD[0mownload snap "core20" (2318) from channel "stable"                                                                                  1%  699kB/s 1m35s[7mDo[0mwnload snap "core20" (2318) from channel "stable"                                                                                  2%  890kB/s 1m14s[7mDow[0mnload snap "core20" (2318) from channel "stable"                                                                                  2% 1.28MB/s 51.2s[7mDownl[0moad snap "core20" (2318) from channel "stable"                                                                                  4% 1.70MB/s 38.1s[7mDownloa[0md snap "core20" (2318) from channel "stable"                                                                                  5% 2.34MB/s 27.2s[7mDownload s[0mnap "core20" (2318) from channel "stable"                                                                                  7% 2.99MB/s 20.8s[7mDownload snap [0m"core20" (2318) from channel "stable"                                                                                 10% 3.73MB/s 16.3s[7mDownload snap "[0mcore20" (2318) from channel "stable"                                                                                 11% 3.83MB/s 15.7s[7mDownload snap "[0mcore20" (2318) from channel "stable"                                                                                 11% 3.55MB/s 16.9s[7mDownload snap "core20[0m" (2318) from channel "stable"                                                                                 14% 4.57MB/s 12.6s[7mDownload snap "core20[0m" (2318) from channel "stable"                                                                                 14% 4.35MB/s 13.2s[7mDownload snap "core20" ([0m2318) from channel "stable"                                                                                 16% 4.79MB/s 11.7s[7mDownload snap "core20" (23[0m18) from channel "stable"                                                                                 18% 4.89MB/s 11.3s[7mDownload snap "core20" (2318)[0m from channel "stable"                                                                                 19% 5.21MB/s 10.4s[7mDownload snap "core20" (2318) [0mfrom channel "stable"                                                                                 20% 5.17MB/s 10.4s[7mDownload snap "core20" (2318) [0mfrom channel "stable"                                                                                 20% 4.96MB/s 10.8s[7mDownload snap "core20" (2318) from c[0mhannel "stable"                                                                                 24% 5.76MB/s 8.82s[7mDownload snap "core20" (2318) from c[0mhannel "stable"                                                                                 24% 5.55MB/s 9.14s[7mDownload snap "core20" (2318) from cha[0mnnel "stable"                                                                                 25% 5.60MB/s 8.92s[7mDownload snap "core20" (2318) from cha[0mnnel "stable"                                                                                 25% 5.42MB/s 9.23s[7mDownload snap "core20" (2318) from chann[0mel "stable"                                                                                 27% 5.56MB/s 8.81s[7mDownload snap "core20" (2318) from chann[0mel "stable"                                                                                 27% 5.39MB/s 9.09s[7mDownload snap "core20" (2318) from channel[0m "stable"                                                                                 28% 5.52MB/s 8.68s[7mDownload snap "core20" (2318) from channel[0m "stable"                                                                                 28% 5.36MB/s 8.95s[7mDownload snap "core20" (2318) from channel "[0mstable"                                                                                 30% 5.45MB/s 8.64s[7mDownload snap "core20" (2318) from channel "[0mstable"                                                                                 30% 5.27MB/s 8.93s[7mDownload snap "core20" (2318) from channel "stab[0mle"                                                                                 32% 5.58MB/s 8.12s[7mDownload snap "core20" (2318) from channel "stable[0m"                                                                                 34% 5.57MB/s 8.00s[7mDownload snap "core20" (2318) from channel "stable"[0m                                                                                 34% 5.57MB/s 7.89s[7mDownload snap "core20" (2318) from channel "stable" [0m                                                                                35% 5.58MB/s 7.78s[7mDownload snap "core20" (2318) from channel "stable" [0m                                                                                35% 5.40MB/s 8.03s[7mDownload snap "core20" (2318) from channel "stable"        [0m                                                                         39% 5.90MB/s 6.88s[7mDownload snap "core20" (2318) from channel "stable"        [0m                                                                         39% 5.75MB/s 7.07s[7mDownload snap "core20" (2318) from channel "stable"        [0m                                                                         40% 5.67MB/s 7.11s[7mDownload snap "core20" (2318) from channel "stable"          [0m                                                                       41% 5.70MB/s 6.95s[7mDownload snap "core20" (2318) from channel "stable"          [0m                                                                       41% 5.57MB/s 7.10s[7mDownload snap "core20" (2318) from channel "stable"             [0m                                                                    43% 5.69MB/s 6.75s[7mDownload snap "core20" (2318) from channel "stable"             [0m                                                                    43% 5.58MB/s 6.89s[7mDownload snap "core20" (2318) from channel "stable"                [0m                                                                 45% 5.71MB/s 6.49s[7mDownload snap "core20" (2318) from channel "stable"                [0m                                                                 45% 5.60MB/s 6.62s[7mDownload snap "core20" (2318) from channel "stable"                 [0m                                                                46% 5.60MB/s 6.51s[7mDownload snap "core20" (2318) from channel "stable"                 [0m                                                                46% 5.50MB/s 6.64s[7mDownload snap "core20" (2318) from channel "stable"                       [0m                                                          50% 5.89MB/s 5.72s[7mDownload snap "core20" (2318) from channel "stable"                       [0m                                                          50% 5.78MB/s 5.83s[7mDownload snap "core20" (2318) from channel "stable"                        [0m                                                         50% 5.75MB/s 5.78s[7mDownload snap "core20" (2318) from channel "stable"                        [0m                                                         50% 5.65MB/s 5.88s[7mDownload snap "core20" (2318) from channel "stable"                           [0m                                                      52% 5.74MB/s 5.59s[7mDownload snap "core20" (2318) from channel "stable"                            [0m                                                     53% 5.72MB/s 5.54s[7mDownload snap "core20" (2318) from channel "stable"                              [0m                                                   54% 5.79MB/s 5.29s[7mDownload snap "core20" (2318) from channel "stable"                               [0m                                                  55% 5.73MB/s 5.30s[7mDownload snap "core20" (2318) from channel "stable"                               [0m                                                  55% 5.68MB/s 5.29s[7mDownload snap "core20" (2318) from channel "stable"                                [0m                                                 55% 5.60MB/s 5.33s[7mDownload snap "core20" (2318) from channel "stable"                                     [0m                                            59% 5.89MB/s 4.65s[7mDownload snap "core20" (2318) from channel "stable"                                       [0m                                          60% 5.88MB/s 4.56s[7mDownload snap "core20" (2318) from channel "stable"                                       [0m                                          60% 5.79MB/s 4.63s[7mDownload snap "core20" (2318) from channel "stable"                                         [0m                                        62% 5.85MB/s 4.41s[7mDownload snap "core20" (2318) from channel "stable"                                         [0m                                        62% 5.76MB/s 4.48s[7mDownload snap "core20" (2318) from channel "stable"                                          [0m                                       62% 5.76MB/s 4.37s[7mDownload snap "core20" (2318) from channel "stable"                                          [0m                                       62% 5.68MB/s 4.44s[7mDownload snap "core20" (2318) from channel "stable"                                               [0m                                  65% 5.87MB/s 3.94s[7mDownload snap "core20" (2318) from channel "stable"                                               [0m                                  65% 5.79MB/s 3.99s[7mDownload snap "core20" (2318) from channel "stable"                                                [0m                                 66% 5.77MB/s 3.93s[7mDownload snap "core20" (2318) from channel "stable"                                                [0m                                 66% 5.69MB/s 3.99s[7mDownload snap "core20" (2318) from channel "stable"                                                   [0m                              68% 5.79MB/s 3.69s[7mDownload snap "core20" (2318) from channel "stable"                                                   [0m                              69% 5.74MB/s 3.67s[7mDownload snap "core20" (2318) from channel "stable"                                                     [0m                            69% 5.74MB/s 3.57s[7mDownload snap "core20" (2318) from channel "stable"                                                      [0m                           70% 5.73MB/s 3.47s[7mDownload snap "core20" (2318) from channel "stable"                                                      [0m                           70% 5.66MB/s 3.52s[7mDownload snap "core20" (2318) from channel "stable"                                                          [0m                       73% 5.81MB/s 3.10s[7mDownload snap "core20" (2318) from channel "stable"                                                             [0m                    75% 5.86MB/s 2.89s[7mDownload snap "core20" (2318) from channel "stable"                                                              [0m                   75% 5.84MB/s 2.83s[7mDownload snap "core20" (2318) from channel "stable"                                                              [0m                   75% 5.77MB/s 2.86s[7mDownload snap "core20" (2318) from channel "stable"                                                                 [0m                78% 5.89MB/s 2.53s[7mDownload snap "core20" (2318) from channel "stable"                                                                 [0m                78% 5.82MB/s 2.56s[7mDownload snap "core20" (2318) from channel "stable"                                                                   [0m              79% 5.83MB/s 2.43s[7mDownload snap "core20" (2318) from channel "stable"                                                                   [0m              79% 5.77MB/s 2.46s[7mDownload snap "core20" (2318) from channel "stable"                                                                   [0m              79% 5.73MB/s 2.42s[7mDownload snap "core20" (2318) from channel "stable"                                                                   [0m              79% 5.66MB/s 2.45s[7mDownload snap "core20" (2318) from channel "stable"                                                                         [0m        83% 5.85MB/s 1.97s[7mDownload snap "core20" (2318) from channel "stable"                                                                          [0m       83% 5.82MB/s 1.91s[7mDownload snap "core20" (2318) from channel "stable"                                                                           [0m      84% 5.80MB/s 1.84s[7mDownload snap "core20" (2318) from channel "stable"                                                                           [0m      84% 5.73MB/s 1.86s[7mDownload snap "core20" (2318) from channel "stable"                                                                               [0m  87% 5.87MB/s 1.46s[7mDownload snap "core20" (2318) from channel "stable"                                                                               [0m  87% 5.81MB/s 1.48s[7mDownload snap "core20" (2318) from channel "stable"                                                                                 8[0m9% 5.87MB/s 1.26s[7mDownload snap "core20" (2318) from channel "stable"                                                                                 8[0m9% 5.81MB/s 1.25s[7mDownload snap "core20" (2318) from channel "stable"                                                                                 90[0m% 5.78MB/s 1.18s[7mDownload snap "core20" (2318) from channel "stable"                                                                                 91% [0m5.77MB/s 1.08s[7mDownload snap "core20" (2318) from channel "stable"                                                                                 91% [0m5.70MB/s 1.09s[7mDownload snap "core20" (2318) from channel "stable"                                                                                 94% 5.84[0mMB/s 717ms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 94% 5.76[0mMB/s 727ms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 94% 5.70[0mMB/s 708ms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 94% 5.65[0mMB/s 715ms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 97% 5.77MB/s [0m344ms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 98% 5.80MB/s 19[0m0ms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 99% 5.80MB/s  89[0mms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 99% 5.74MB/s  90[0mms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 99% 5.69MB/s  90[0mms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 99% 5.64MB/s  91[0mms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 99% 5.59MB/s  92[0mms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 99% 5.54MB/s  93[0mms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 99% 5.50MB/s  67m[0ms[7mDownload snap "core20" (2318) from channel "stable"                                                                                 99% 5.46MB/s  67m[0ms[7mDownload snap "core20" (2318) from channel "stable"                                                                                100% 5.42MB/s 0.0ns[0m[7mDownload snap "core20" (2318) from channel "stable"                                                                                100% 5.31MB/s 0.0ns[0m[7mDownload snap "core20" (2318) from channel "stable"                                                                                100% 5.26MB/s 0.0ns[0mFetch and check assertions for snap "core20" (2318)                                                                                                  -Fetch and check assertions for snap "core20" (2318)                                                                                                  \Fetch and check assertions for snap "core20" (2318)                                                                                                  |Fetch and check assertions for snap "core20" (2318)                                                                                                  /Fetch and check assertions for snap "core20" (2318)                                                                                                  -Fetch and check assertions for snap "core20" (2318)                                                                                                  \Fetch and check assertions for snap "core20" (2318)                                                                                                  |Fetch and check assertions for snap "core20" (2318)                                                                                                  /Fetch and check assertions for snap "core20" (2318)                                                                                                  -Fetch and check assertions for snap "core20" (2318)                                                                                                  \Mount snap "core20" (2318)                                                                                                                           |Mount snap "core20" (2318)                                                                                                                           /Mount snap "core20" (2318)                                                                                                                           -Mount snap "core20" (2318)                                                                                                                           \Mount snap "core20" (2318)                                                                                                                           |Mount snap "core20" (2318)                                                                                                                           /Mount snap "core20" (2318)                                                                                                                           -Mount snap "core20" (2318)                                                                                                                           \Automatically connect eligible plugs and slots of snap "core20"                                                                                      |Download snap "curl" (1754) from channel "stable"                                                                                                    /Download snap "curl" (1754) from channel "stable"                                                                                                    -Download snap "curl" (1754) from channel "stable"                                                                                                    \Download snap "curl" (1754) from channel "stable"                                                                                                    |Download snap "curl" (1754) from channel "stable"                                                                                                    /Download snap "curl" (1754) from channel "stable"                                                                                                    -Download snap "curl" (1754) from channel "stable"                                                                                                    \Download snap "curl" (1754) from channel "stable"                                                                                                    |Download snap "curl" (1754) from channel "stable"                                                                                                    /Download snap "curl" (1754) from channel "stable"                                                                                                    -Download snap "curl" (1754) from channel "stable"                                                                                                    \Download snap "curl" (1754) from channel "stable"                                                                                                    |Download snap "curl" (1754) from channel "stable"                                                                                                    /[?25l[7m[0mDownload snap "curl" (1754) from channel "stable"                                                                                    0%  309kB/s 21.7s[7m[0mDownload snap "curl" (1754) from channel "stable"                                                                                    0%  154kB/s 43.4s[7mD[0mownload snap "curl" (1754) from channel "stable"                                                                                    1%  154kB/s 43.2s[7mDo[0mwnload snap "curl" (1754) from channel "stable"                                                                                    1%  233kB/s 28.4s[7mDo[0mwnload snap "curl" (1754) from channel "stable"                                                                                    2%  249kB/s 26.5s[7mDow[0mnload snap "curl" (1754) from channel "stable"                                                                                    3%  285kB/s 23.0s[7mDownl[0moad snap "curl" (1754) from channel "stable"                                                                                    4%  356kB/s 18.2s[7mDownload[0m snap "curl" (1754) from channel "stable"                                                                                    6%  467kB/s 13.6s[7mDownload sna[0mp "curl" (1754) from channel "stable"                                                                                    8%  588kB/s 10.5s[7mDownload snap "cu[0mrl" (1754) from channel "stable"                                                                                   12%  764kB/s 7.76s[7mDownload snap "curl" (175[0m4) from channel "stable"                                                                                   17% 1.00MB/s 5.56s[7mDownload snap "curl" (1754) from chann[0mel "stable"                                                                                   25% 1.35MB/s 3.70s[7mDownload snap "curl" (1754) from channel "stable"        [0m                                                                           38% 1.88MB/s 2.21s[7mDownload snap "curl" (1754) from channel "stable"                                   [0m                                                56% 2.50MB/s 1.18s[7mDownload snap "curl" (1754) from channel "stable"                                                                            [0m       84% 3.50MB/s 313ms[7mDownload snap "curl" (1754) from channel "stable"                                                                                   95% 3.73MB[0m/s  88msFetch and check assertions for snap "curl" (1754)                                                                                                    -Fetch and check assertions for snap "curl" (1754)                                                                                                    \Fetch and check assertions for snap "curl" (1754)                                                                                                    |Fetch and check assertions for snap "curl" (1754)                                                                                                    /Fetch and check assertions for snap "curl" (1754)                                                                                                    -Fetch and check assertions for snap "curl" (1754)                                                                                                    \Fetch and check assertions for snap "curl" (1754)                                                                                                    |Fetch and check assertions for snap "curl" (1754)                                                                                                    /Mount snap "curl" (1754)                                                                                                                             -Mount snap "curl" (1754)                                                                                                                             \Mount snap "curl" (1754)                                                                                                                             |Mount snap "curl" (1754)                                                                                                                             /Mount snap "curl" (1754)                                                                                                                             -Copy snap "curl" data                                                                                                                                \Setup snap "curl" (1754) security profiles                                                                                                           |Setup snap "curl" (1754) security profiles                                                                                                           /Setup snap "curl" (1754) security profiles for auto-connections                                                                                      -Setup snap "curl" (1754) security profiles for auto-connections                                                                                      \Run health check of "curl" snap                                                                                                                      |[0m[?25h[Kcurl 8.1.2 from Wouter van Bommel (woutervb[32m[0m) installed
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ sudo snap install curldpkg --configure -a[3Papt install curlcurl http://10.154.233.70
+[?2004l<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Modified from the Debian original for Ubuntu
+    Last updated: 2022-03-22
+    See: https://launchpad.net/bugs/1966004
+  -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Apache2 Ubuntu Default Page: It works</title>
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #D8DBE2;
+
+    font-family: Ubuntu, Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
+
+    background-color: #FFFFFF;
+
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 180px;
+    width: 100%;
+
+    background-color: #F5F6F7;
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 50px;
+
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+
+    border: 0px 0px 0px;
+  }
+
+  div.banner {
+    padding: 9px 6px 9px 6px;
+    background-color: #E9510E;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    bottom: 30px;
+    width: 20%;
+  }
+
+  div.table_of_contents {
+    clear: left;
+
+    min-width: 200px;
+
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+
+    width: 100%;
+
+    margin: 4px 0px 0px 0px;
+
+    background-color: #FFFFFF;
+
+    color: #000000;
+    text-align: left;
+  }
+
+  div.table_of_contents_item a {
+    margin: 6px 0px 0px 6px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #000000;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #8E9CB2;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+
+  div.validator {
+  }
+    </style>
+  </head>
+  <body>
+    <div class="main_page">
+      <div class="page_header floating_element">
+        <img src="icons/ubuntu-logo.png" alt="Ubuntu Logo"
+             style="width:184px;height:146px;" class="floating_element" />
+        <div>
+          <span style="margin-top: 1.5em;" class="floating_element">
+            Apache2 Default Page
+          </span>
+        </div>
+        <div class="banner">
+          <div id="about"></div>
+          It works!
+        </div>
+
+      </div>
+      <div class="content_section floating_element">
+        <div class="content_section_text">
+          <p>
+                This is the default welcome page used to test the correct 
+                operation of the Apache2 server after installation on Ubuntu systems.
+                It is based on the equivalent page on Debian, from which the Ubuntu Apache
+                packaging is derived.
+                If you can read this page, it means that the Apache HTTP server installed at
+                this site is working properly. You should <b>replace this file</b> (located at
+                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.
+          </p>
+
+          <p>
+                If you are a normal user of this web site and don't know what this page is
+                about, this probably means that the site is currently unavailable due to
+                maintenance.
+                If the problem persists, please contact the site's administrator.
+          </p>
+
+        </div>
+        <div class="section_header">
+          <div id="changes"></div>
+                Configuration Overview
+        </div>
+        <div class="content_section_text">
+          <p>
+                Ubuntu's Apache2 default configuration is different from the
+                upstream default configuration, and split into several files optimized for
+                interaction with Ubuntu tools. The configuration system is
+                <b>fully documented in
+                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
+                documentation. Documentation for the web server itself can be
+                found by accessing the <a href="/manual">manual</a> if the <tt>apache2-doc</tt>
+                package was installed on this server.
+          </p>
+          <p>
+                The configuration layout for an Apache2 web server installation on Ubuntu systems is as follows:
+          </p>
+          <pre>
+/etc/apache2/
+|-- apache2.conf
+|       `--  ports.conf
+|-- mods-enabled
+|       |-- *.load
+|       `-- *.conf
+|-- conf-enabled
+|       `-- *.conf
+|-- sites-enabled
+|       `-- *.conf
+          </pre>
+          <ul>
+                        <li>
+                           <tt>apache2.conf</tt> is the main configuration
+                           file. It puts the pieces together by including all remaining configuration
+                           files when starting up the web server.
+                        </li>
+
+                        <li>
+                           <tt>ports.conf</tt> is always included from the
+                           main configuration file. It is used to determine the listening ports for
+                           incoming connections, and this file can be customized anytime.
+                        </li>
+
+                        <li>
+                           Configuration files in the <tt>mods-enabled/</tt>,
+                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain
+                           particular configuration snippets which manage modules, global configuration
+                           fragments, or virtual host configurations, respectively.
+                        </li>
+
+                        <li>
+                           They are activated by symlinking available
+                           configuration files from their respective
+                           *-available/ counterparts. These should be managed
+                           by using our helpers
+                           <tt>
+                                a2enmod,
+                                a2dismod,
+                           </tt>
+                           <tt>
+                                a2ensite,
+                                a2dissite,
+                            </tt>
+                                and
+                           <tt>
+                                a2enconf,
+                                a2disconf
+                           </tt>. See their respective man pages for detailed information.
+                        </li>
+
+                        <li>
+                           The binary is called apache2 and is managed using systemd, so to
+                           start/stop the service use <tt>systemctl start apache2</tt> and
+                           <tt>systemctl stop apache2</tt>, and use <tt>systemctl status apache2</tt>
+                           and <tt>journalctl -u apache2</tt> to check status.  <tt>system</tt>
+                           and <tt>apache2ctl</tt> can also be used for service management if
+                           desired.
+                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the
+                           default configuration.
+                        </li>
+          </ul>
+        </div>
+
+        <div class="section_header">
+            <div id="docroot"></div>
+                Document Roots
+        </div>
+
+        <div class="content_section_text">
+            <p>
+                By default, Ubuntu does not allow access through the web browser to
+                <em>any</em> file outside of those located in <tt>/var/www</tt>,
+                <a href="http://httpd.apache.org/docs/2.4/mod/mod_userdir.html" rel="nofollow">public_html</a>
+                directories (when enabled) and <tt>/usr/share</tt> (for web
+                applications). If your site is using a web document root
+                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your
+                document root directory in <tt>/etc/apache2/apache2.conf</tt>.
+            </p>
+            <p>
+                The default Ubuntu document root is <tt>/var/www/html</tt>. You
+                can make your own virtual hosts under /var/www.
+            </p>
+        </div>
+
+        <div class="section_header">
+          <div id="bugs"></div>
+                Reporting Problems
+        </div>
+        <div class="content_section_text">
+          <p>
+                Please use the <tt>ubuntu-bug</tt> tool to report bugs in the
+                Apache2 package with Ubuntu. However, check <a
+                href="https://bugs.launchpad.net/ubuntu/+source/apache2"
+                rel="nofollow">existing bug reports</a> before reporting a new bug.
+          </p>
+          <p>
+                Please report bugs specific to modules (such as PHP and others)
+                to their respective packages, not to the web server itself.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="validator">
+    </div>
+  </body>
+</html>
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ sctrip[K[K[K[Kript stip[K[Kop
+[?2004lScript started, output log file is 'stop'.
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;dev@hostnamelesson4: ~[01;32mdev@hostnamelesson4[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-07-14 19:36:37+08:00 [COMMAND_EXIT_CODE="130"]
