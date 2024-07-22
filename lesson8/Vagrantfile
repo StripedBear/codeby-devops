@@ -1,0 +1,22 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/bionic64"
+  config.ssh.insert_key = false
+  # Настройка VM server
+  config.vm.define "server" do |server|
+    server.vm.hostname = "server"
+    server.vm.network "private_network", ip: "192.168.56.18"
+    server.vm.synced_folder ".", "/vagrant", disable: false
+    server.ssh.insert_key = false
+    server.vm.provision "shell", path: "server_pro.sh"
+  end
+
+  # Настройка VM client
+  config.vm.define "client" do |client|
+    client.vm.hostname = "client"
+    client.ssh.insert_key = false
+    client.vm.network "private_network", ip: "192.168.56.19"
+    client.vm.synced_folder ".", "/vagrant", disable: false    
+    client.vm.provision "shell", path: "client_pro.sh"
+  end
+  config.vm.synced_folder ".", "/vagrant"
+end
