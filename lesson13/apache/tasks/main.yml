@@ -1,0 +1,47 @@
+---
+  - block:
+    - name: Set Python interpreter for CentOS
+      set_fact:
+        ansible_python_interpreter: /usr/bin/python3.8
+      when: ansible_os_family == "RedHat"
+
+    - name: Set Python interpreter for Ubuntu
+      set_fact:
+        ansible_python_interpreter: /usr/bin/python3
+      when: ansible_os_family == "Debian"
+
+    - block:
+        - name: Update and upgrade apt packages
+          apt:
+            upgrade: yes
+            update_cache: yes
+          when: ansible_os_family == "Debian"
+
+        - name: Install Apache on Ubuntu
+          apt:
+            name: apache2
+            state: latest
+          when: ansible_os_family == "Debian"
+
+        - debug:
+            msg: "Apache installed Ubuntu"
+          when: ansible_os_family == "Debian"
+
+    - block:
+        - name: Update and upgrade yum packages
+          yum:
+            name: '*'
+            state: latest
+            exclude: kernel*,foo*
+          when: ansible_os_family == "RedHat"
+
+        - name: Install Apache on CentOS
+          yum:
+            name: httpd
+            state: latest
+          when: ansible_os_family == "RedHat"
+
+        - debug:
+            msg: "Apache installed CentOS"
+          when: ansible_os_family == "RedHat"
+

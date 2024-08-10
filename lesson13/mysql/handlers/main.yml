@@ -1,0 +1,14 @@
+---
+- name: started and enabled MySQL CentOS
+  service:
+    name: mysqld
+    state: started
+    enabled: yes
+  when: ansible_os_name == 'RedHat'
+
+- name: started and enabled MySQL Ubuntu
+  service:
+    name: mysql-server
+    state: started
+    enabled: yes
+  when: ansible_os_name == 'Debian'

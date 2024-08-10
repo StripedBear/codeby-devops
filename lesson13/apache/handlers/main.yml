@@ -1,0 +1,16 @@
+---
+- name: started and enabled Apache CentOS
+  service:
+    name: httpd
+    state: started
+    enabled: yes
+  when: 
+    ansible_os_family == 'RedHat'
+
+- name: started and enabled Apache Ubuntu
+  service:
+    name: apache2
+    state: started
+    enabled: yes
+  when: 
+    ansible_os_family == 'Debian'

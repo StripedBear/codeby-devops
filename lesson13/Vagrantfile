@@ -1,0 +1,55 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+    config.vm.define 'ubuntu' do |ubuntu|
+      ubuntu.vm.box = "ubuntu/20.04"
+      ubuntu.ssh.insert_key = false
+
+      ubuntu.vm.hostname = "ubuntu"
+      ubuntu.vm.network "private_network", ip: "192.168.56.10"
+      ubuntu.vm.provision "copy ssh-key", type: "file", source: "./id_rsa.pub", destination: "/home/vagrant/id_rsa.pub"
+      ubuntu.vm.provision "setup ssh-key", type: "shell", path: "./ubuntu_ssh_setup.sh"
+      
+    end
+    
+    config.vm.define 'centos' do |centos|
+      centos.vm.box = "centos/7"
+      centos.ssh.insert_key = false
+
+      centos.vm.hostname = "centos"
+      centos.vm.network "private_network", ip: "192.168.56.15"
+      centos.vm.provision "copy ssh-key", type: "file", source: "./id_rsa.pub", destination: "/home/vagrant/id_rsa.pub"
+      centos.vm.provision "setup ssh-key", type: "shell", path: "./centos_ssh_setup.sh"
+      
+      centos.vm.provision "shell", inline: <<-SHELL
+    sudo sed -i 's|^mirrorlist=|#mirrorlist=|g' /etc/yum.repos.d/CentOS-Base.repo
+    sudo sed -i 's|^#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Base.repo
+    
+    sudo sed -i 's|^mirrorlist=|#mirrorlist=|g' /etc/yum.repos.d/CentOS-Updates.repo
+    sudo sed -i 's|^#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Updates.repo
+    
+    sudo sed -i 's|^mirrorlist=|#mirrorlist=|g' /etc/yum.repos.d/CentOS-Extras.repo
+    sudo sed -i 's|^#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Extras.repo
+    
+    sudo sed -i 's|^mirrorlist=|#mirrorlist=|g' /etc/yum.repos.d/CentOS-CentOSPlus.repo
+    sudo sed -i 's|^#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-CentOSPlus.repo
+    
+    # Чистим кэш yum и обновляем систему
+    sudo yum clean all
+    sudo yum update -y
+    sudo yum install dnf -y
+    sudo dnf groupinstall "Development Tools" -y
+    sudo dnf install wget openssl-devel bzip2-devel libffi-devel -y
+    wget https://www.python.org/ftp/python/3.8.10/Python-3.8.10.tgz
+    tar xzf Python-3.8.10.tgz
+    cd Python-3.8.10
+    ./configure --enable-optimizations
+    make
+    sudo make altinstall
+    sudo ln -s /usr/local/bin/python3.8 /usr/bin/python3.8
+  SHELL
+  end
+  
+end
+
