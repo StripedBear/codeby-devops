@@ -1,0 +1,43 @@
+---
+- block:
+  - name: Update and upgrade apt packages
+    apt:
+      upgrade: yes
+      update_cache: yes
+
+  - name: install
+    apt:
+      name: mysql-server
+      state: latest
+      
+  - debug:
+      msg: "MySQL installed on Ubuntu"
+  when: 
+    ansible_os_family == "Debian"
+
+- block:
+  - name: Update and upgrade yum packages
+    ansible.builtin.yum:
+      name: '*'
+      state: latest
+      exclude: kernel*,foo*
+
+  - name: Copy MySQL
+    copy: 
+      src: "{{ role_path }}/files/mysql_rpm.rpm"
+      dest: '{{ destin_file }}'
+
+    
+  - name: install Mysql local
+    ansible.builtin.shell:
+      cmd: sudo yum -y localinstall /home/vagrant/mysql_rpm.rpm
+
+  - name: install Mysql 
+    ansible.builtin.shell:
+      cmd: sudo yum -y install mysql-community-server
+
+
+  - debug:
+      msg: "MySQL installed on CentOS"
+  when: 
+    ansible_os_family == "RedHat"
