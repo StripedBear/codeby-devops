@@ -1,0 +1,19 @@
+# First image
+FROM alpine:latest
+
+# nginx
+RUN apk update && apk add --no-cache nginx
+
+# Create folder and add index.html
+RUN mkdir -p /opt/www \
+    && echo "<html><body><h1>Welcome to lesson16</h1></body></html>" > /opt/www/index.html
+
+# Set up nginx
+RUN mkdir -p /etc/nginx/conf.d
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Open 80
+EXPOSE 80
+
+# Lainch nginx
+CMD ["nginx", "-g", "daemon off;"]
