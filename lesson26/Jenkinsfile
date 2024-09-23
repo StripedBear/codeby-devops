@@ -1,0 +1,52 @@
+pipeline {
+    agent any
+    environment {
+
+        CHANGED_FILES = sh(script: 'git diff --name-only HEAD~1', returnStdout: true).trim()
+    }
+    stages {
+        stage('Build and Deploy') {
+            parallel {
+                stage('HelloWorld') {
+                    when {
+                        expression { return env.CHANGED_FILES.contains('hello-world/') }
+                    }
+                    steps {
+                        dir('hello-world') {
+                            echo 'Building HelloWorld...'
+                            sh 'mvn clean package'
+                            echo 'Running HelloWorld tests...'
+                            sh 'mvn test'
+                        }
+                    }
+                }
+                stage('HelloJenkins') {
+                    when {
+                        expression { return env.CHANGED_FILES.contains('hello-jenkins/') }
+                    }
+                    steps {
+                        dir('hello-jenkins') {
+                            echo 'Building HelloJenkins...'
+                            sh 'mvn clean package'
+                            echo 'Running HelloJenkins tests...'
+                            sh 'mvn test'
+                        }
+                    }
+                }
+                stage('HelloDevOps') {
+                    when {
+                        expression { return env.CHANGED_FILES.contains('hello-devops/') }
+                    }
+                    steps {
+                        dir('hello-devops') {
+                            echo 'Building HelloDevOps...'
+                            sh 'mvn clean package'
+                            echo 'Running HelloDevOps tests...'
+                            sh 'mvn test'
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
