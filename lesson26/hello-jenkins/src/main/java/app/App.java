@@ -2,6 +2,7 @@ package app;
 
 /**
  * Hello Jenkins!
+ * test comment
  */
 
 public class App {
