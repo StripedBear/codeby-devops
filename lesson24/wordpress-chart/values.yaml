@@ -1,0 +1,29 @@
+mysql:
+  image: mysql:8
+  username: wordpress
+  password: wordpress_password
+  rootPassword: root_password
+  database: wordpress_db
+  storage:
+    size: 10Gi
+
+wordpress:
+  image: wordpress:latest
+  replicas: 2
+  hpa:
+    enabled: true
+    minReplicas: 2
+    maxReplicas: 10
+    targetCPUUtilizationPercentage: 50
+  ingress:
+    enabled: true
+    host: wordpress.local
+  storage:
+    size: 10Gi
+
+networkPolicy:
+  enabled: true
+
+persistence:
+  accessMode: ReadWriteOnce
+  storageClass: standard
