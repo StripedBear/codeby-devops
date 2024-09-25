@@ -12,7 +12,7 @@ pipeline {
             parallel {
                 stage('HelloWorld') {
                     steps {
-                        dir('../lesson27/hello-world') {
+                        dir('lesson27/hello-world') {
                             echo 'Building HelloWorld...'
                             sh 'pwd'
                             sh 'mvn clean package sonar:sonar ' +
@@ -24,7 +24,7 @@ pipeline {
                 }
                 stage('HelloJenkins') {
                     steps {
-                        dir('../lesson27/hello-jenkins') {
+                        dir('lesson27/hello-jenkins') {
                             echo 'Building HelloJenkins...'
                             sh 'mvn clean package sonar:sonar ' +
                                '-Dsonar.projectKey=hello-jenkins ' +
@@ -35,7 +35,7 @@ pipeline {
                 }
                 stage('HelloDevOps') {
                     steps {
-                        dir('../lesson27/hello-devops') {
+                        dir('lesson27/hello-devops') {
                             echo 'Building HelloDevOps...'
                             sh 'mvn clean package sonar:sonar ' +
                                '-Dsonar.projectKey=hello-devops ' +
