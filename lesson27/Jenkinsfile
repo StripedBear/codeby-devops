@@ -15,10 +15,12 @@ pipeline {
                         dir('lesson27/hello-world') {
                             echo 'Building HelloWorld...'
                             sh 'pwd'
-                            sh 'mvn clean package sonar:sonar ' +
-                               '-Dsonar.projectKey=hello-world ' +
-                               '-Dsonar.host.url=$SONARQUBE_URL ' +
-                               '-Dsonar.login=$SONAR_TOKEN'
+                            withSonarQubeEnv('SonarQube'){
+                               sh 'mvn clean package sonar:sonar ' +
+                                   '-Dsonar.projectKey=hello-world ' +
+                                   '-Dsonar.host.url=$SONARQUBE_URL ' +
+                                   '-Dsonar.login=$SONAR_TOKEN'
+                            }
                         }
                     }
                 }
@@ -26,10 +28,12 @@ pipeline {
                     steps {
                         dir('lesson27/hello-jenkins') {
                             echo 'Building HelloJenkins...'
-                            sh 'mvn clean package sonar:sonar ' +
-                               '-Dsonar.projectKey=hello-jenkins ' +
-                               '-Dsonar.host.url=$SONARQUBE_URL ' +
-                               '-Dsonar.login=$SONAR_TOKEN'
+                            withSonarQubeEnv('SonarQube'){
+                                sh 'mvn clean package sonar:sonar ' +
+                                    '-Dsonar.projectKey=hello-jenkins ' +
+                                    '-Dsonar.host.url=$SONARQUBE_URL ' +
+                                    '-Dsonar.login=$SONAR_TOKEN'
+                            }
                         }
                     }
                 }
@@ -37,10 +41,13 @@ pipeline {
                     steps {
                         dir('lesson27/hello-devops') {
                             echo 'Building HelloDevOps...'
-                            sh 'mvn clean package sonar:sonar ' +
-                               '-Dsonar.projectKey=hello-devops ' +
-                               '-Dsonar.host.url=$SONARQUBE_URL ' +
-                               '-Dsonar.login=$SONAR_TOKEN'
+                            withSonarQubeEnv('SonarQube'){
+                                sh 'mvn clean package sonar:sonar ' +
+                                   '-Dsonar.projectKey=hello-devops ' +
+                                   '-Dsonar.host.url=$SONARQUBE_URL ' +
+                                   '-Dsonar.login=$SONAR_TOKEN'
+                            }
+                            
                         }
                     }
                 }
