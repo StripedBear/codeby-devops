@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    environment {
+        SONARQUBE_URL = 'http://192.168.200.120:9000'
+        SONAR_TOKEN = credentials('sonar-token')
+    }
     stages {
         stage('Build and SonarQube Analysis') {
             parallel {
