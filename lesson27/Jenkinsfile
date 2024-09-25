@@ -14,6 +14,7 @@ pipeline {
                     steps {
                         dir('lesson27/hello-world') {
                             echo 'Building HelloWorld...'
+                            sh 'pwd'
                             sh 'mvn clean package sonar:sonar ' +
                                '-Dsonar.projectKey=hello-world ' +
                                '-Dsonar.host.url=$SONARQUBE_URL ' +
