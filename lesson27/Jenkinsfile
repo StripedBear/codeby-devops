@@ -15,7 +15,7 @@ pipeline {
                         dir('lesson27/hello-world') {
                             echo 'Building HelloWorld...'
                             sh 'pwd'
-                            withSonarQubeEnv(credentialsId: 'sonar'){
+                            withSonarQubeEnv('sonar'){
                                 sh 'mvn clean package sonar:sonar ' +
                                     '-Dsonar.projectKey=hello-world ' +
                                     '-Dsonar.host.url=$SONARQUBE_URL ' +
