@@ -17,9 +17,9 @@ pipeline {
                             sh 'pwd'
                             withSonarQubeEnv(credentialsId: 'sonar'){
                                 sh 'mvn clean package sonar:sonar ' +
-                                   '-Dsonar.projectKey=hello-world ' +
-                                   '-Dsonar.host.url=$SONARQUBE_URL ' +
-                                   '-Dsonar.login=$SONAR_TOKEN'
+                                    '-Dsonar.projectKey=hello-world ' +
+                                    '-Dsonar.host.url=$SONARQUBE_URL ' +
+                                    '-Dsonar.login=$SONAR_TOKEN'
                             }
                         }
                     }
