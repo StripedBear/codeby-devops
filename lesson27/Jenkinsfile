@@ -15,7 +15,7 @@ pipeline {
                         dir('lesson27/hello-world') {
                             echo 'Building HelloWorld...'
                             sh 'pwd'
-                            withSonarQubeEnv(credentialsId: 'sonar', installationName: 'Sonar-scanner'){
+                            withSonarQubeEnv(credentialsId: 'sonar', installationName: 'scan'){
                                sh 'mvn clean package sonar:sonar ' +
                                    '-Dsonar.projectKey=hello-world ' +
                                    '-Dsonar.host.url=$SONARQUBE_URL ' +
@@ -28,7 +28,7 @@ pipeline {
                     steps {
                         dir('lesson27/hello-jenkins') {
                             echo 'Building HelloJenkins...'
-                            withSonarQubeEnv(credentialsId: 'sonar', installationName: 'Sonar-scanner'){
+                            withSonarQubeEnv(credentialsId: 'sonar', installationName: 'scan'){
                                 sh 'mvn clean package sonar:sonar ' +
                                     '-Dsonar.projectKey=hello-jenkins ' +
                                     '-Dsonar.host.url=$SONARQUBE_URL ' +
@@ -41,7 +41,7 @@ pipeline {
                     steps {
                         dir('lesson27/hello-devops') {
                             echo 'Building HelloDevOps...'
-                            withSonarQubeEnv(credentialsId: 'sonar', installationName: 'Sonar-scanner'){
+                            withSonarQubeEnv(credentialsId: 'sonar', installationName: 'scan'){
                                 sh 'mvn clean package sonar:sonar ' +
                                    '-Dsonar.projectKey=hello-devops ' +
                                    '-Dsonar.host.url=$SONARQUBE_URL ' +
