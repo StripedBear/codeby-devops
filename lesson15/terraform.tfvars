@@ -1,0 +1,7 @@
+auth_token = ""
+cloud_id = ""
+folder_id = ""
+network_id = ""
+zone = "ru-central1-b"
+public_key_path = ""
+private_key_path = ""
